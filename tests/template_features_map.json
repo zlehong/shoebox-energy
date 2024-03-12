@@ -1,0 +1,167 @@
+{
+    "HeatingSetpoint": {
+        "path0": [
+            "ThermostatSetpoint:DualSetpoint",
+            "Dual Setpoint - Zone %ZONE%",
+            "heating_setpoint_temperature_schedule_name"
+        ],
+        "path1": [
+            "Schedule:Constant",
+            "%VAL%",
+            "hourly_value"
+        ]
+    },
+    "CoolingSetpoint": {
+        "path0": [
+            "ThermostatSetpoint:DualSetpoint",
+            "Dual Setpoint - Zone %ZONE%",
+            "cooling_setpoint_temperature_schedule_name"
+        ],
+        "path1": [
+            "Schedule:Constant",
+            "%VAL%",
+            "hourly_value"
+        ]
+    },
+    "PeopleDensity": [
+        "People",
+        "People %ZONE%",
+        "people_per_floor_area"
+    ],
+    "VentilationPerPerson": [
+        "DesignSpecification:OutdoorAir",
+        "%ZONE%MinFreshAir",
+        "outdoor_air_flow_per_person"
+    ],
+    "EconomizerSettings": [
+        "ZoneHVAC:IdealLoadsAirSystem",
+        "%ZONE% Ideal Loads Air",
+        "outdoor_air_economizer_type"
+    ],
+    "LightingPowerDensity": [
+        "Lights",
+        "%ZONE% General lighting",
+        "watts_per_zone_floor_area"
+    ],
+    "Infiltration": [
+        "ZoneInfiltration:DesignFlowRate",
+        "%ZONE%Infiltration",
+        "air_changes_per_hour"
+    ],
+    "ScheduledVentilationRate": [
+        "ZoneVentilation:DesignFlowRate",
+        "%ZONE% ScheduledVent",
+        "air_changes_per_hour"
+    ],
+    "DHWFlowRate": [
+        "WaterUse:Equipment",
+        "DHW %ZONE%",
+        "peak_flow_rate"
+    ],
+    "DHWSupplyTemp": {
+        "path0": [
+            "WaterUse:Equipment",
+            "DHW %ZONE%",
+            "hot_water_supply_temperature_schedule_name"
+        ],
+        "path1": [
+            "Schedule:Constant",
+            "%VAL%",
+            "hourly_value"
+        ]
+    },
+    "VentilationMode": [
+        "ZoneHVAC:IdealLoadsAirSystem",
+        "%ZONE% Ideal Loads Air",
+        "demand_controlled_ventilation_type"
+    ],
+    "FacadeUValue": {
+        "surface_type": "Wall",
+        "outside_boundary_condition": "Outdoors",
+        "conductivity": "%VAL%"
+    },
+    "PartitionUValue": {
+        "surface_type": "Wall",
+        "outside_boundary_condition": "Surface",
+        "conductivity": "%VAL%"
+    },
+    "FacadeMass": {
+        "surface_type": "Wall",
+        "outside_boundary_condition": "Outdoors",
+        "specific_heat": "%VAL%"
+    },
+    "RoofUValue": {
+        "surface_type": "Roof",
+        "outside_boundary_condition": "Outdoors",
+        "conductivity": "%VAL%"
+    },
+    "RoofMass": {
+        "surface_type": "Wall",
+        "outside_boundary_condition": "Outdoors",
+        "specific_heat": "%VAL%"
+    },
+    "SlabUValue": {
+        "surface_type": "Roof",
+        "outside_boundary_condition": "Outdoors",
+        "conductivity": "%VAL%"
+    },
+    "WindowUValue": {
+        "surface_type": "Window",
+        "conductivity": "%VAL%"
+    },
+    "RecoverySettings": [
+        "ZoneHVAC:IdealLoadsAirSystem",
+        "%ZONE% Ideal Loads Air",
+        "heat_recovery_type"
+    ],
+    "SensibleRecoveryEffectiveness": [
+        "ZoneHVAC:IdealLoadsAirSystem",
+        "%ZONE% Ideal Loads Air",
+        "sensible_heat_recovery_effectiveness"
+    ],
+    "LatentRecoveryEffectiveness": [
+        "ZoneHVAC:IdealLoadsAirSystem",
+        "%ZONE% Ideal Loads Air",
+        "latent_heat_recovery_effectiveness"
+    ],
+    "EquipmentPowerDensity": [
+        "ElectricEquipment",
+        "%ZONE% Equipment 1",
+        "schedule_name"
+    ],
+    "VentilationPerArea": [
+        "DesignSpecification:OutdoorAir",
+        "%ZONE%MinFreshAir",
+        "outdoor_air_flow_per_zone_floor_area"
+    ],
+    "OccupancySchedule": [
+        "People",
+        "People %ZONE%",
+        "number_of_people_schedule_name"
+    ],
+    "EquipmentSchedule": [
+        "ElectricEquipment",
+        "%ZONE% Equipment 1",
+        "schedule_name"
+    ],
+    "DHWSchedule": [
+        "WaterUse:Equipment",
+        "DHW %ZONE%",
+        "target_temperature_schedule_name"
+    ],
+    "OASchedule": [
+        "DesignSpecification:OutdoorAir",
+        "%ZONE%MinFreshAir",
+        "outdoor_air_schedule_name"
+    ],
+    "ScheduledVentilationSchedule": [
+        "ZoneVentilation:DesignFlowRate",
+        "%ZONE% ScheduledVent",
+        "schedule_name"
+    ],
+    "LightsSchedule": [
+        "Lights",
+        "%ZONE% General lighting",
+        "schedule_name"
+    ]
+}
