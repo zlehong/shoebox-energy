@@ -56,6 +56,12 @@ class MechVentMode(IntEnum):
     AllOn = 1
     OccupancySchedule = 2
 
+SIMPLE_GLAZING_TEMPLATE =  {
+        "SimpleGlazing": {
+            "solar_heat_gain_coefficient": 0.65,
+            "u_factor": 1,
+            "visible_transmittance": 0.8
+        }}
 
 class EpJsonIDF:
     """
@@ -63,30 +69,14 @@ class EpJsonIDF:
     """
 
     def __init__(
-        self, idf_path, output_directory=None, eplus_loc=Path("C:\EnergyPlusV22-2-0")
+        self, idf_path, epjson_path, output_directory=None, eplus_loc=Path("C:\EnergyPlusV22-2-0")
     ):
         # get idf JSON
         self.eplus_location = Path(eplus_loc)
         self.idf_path = Path(idf_path)
-        if output_directory:
-            self.output_directory = output_directory
-        else:
-            self.output_directory = self.idf_path.parent
-        # try:
-        # check if epjson exists
-        if not os.path.isfile(self.epjson_path):
-            # if not, convert
-            new_file = self.convert(
-                str(self.idf_path),
-                self.eplus_location,
-                str(self.output_directory),
-                file_type="epjson",
-            )
-            assert new_file == self.epjson_path
-        # except Exception as e:
-        #     logger.error("Error with conversion.")
-        #     logger.error(e)
-            # self.epjson_path = str(self.idf_path).split(".")[0] + ".epjson"
+        self.epjson_path = Path(epjson_path)
+        self.output_directory = Path(output_directory)
+        
         with open(self.epjson_path, "r") as f:
             epjson = json.load(f)
             self.epjson = copy.deepcopy(epjson)
@@ -102,6 +92,36 @@ class EpJsonIDF:
     def epjson_path(self, epjson_path):
         self._epjson_path = epjson_path
         return self._epjson_path
+    
+    @classmethod
+    def upgrade(cls, path, eplus_location, ver_from="8-4-0", ver_to="22-2-0"):
+        version = Path(eplus_location).name
+        logger.info(f"Upgrading {path} to {version}")
+        # TODO
+        # Define the command and its arguments
+        # cmd = eplus_location / "PreProcess" / "IDFVersionUpdater" / f"Transition-V{ver_from}-to-V{ver_to}.exe"
+        # logger.debug(cmd)
+        # args = ["--convert-only", "--output-directory", output_directory, path]
+        # logger.debug(args)
+
+        # # TODO change location of idf
+
+        # # Run the command
+        # with subprocess.Popen(
+        #     [cmd] + args, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True
+        # ) as proc:
+        #     for line in proc.stdout:
+        #         logger.info(line.strip())
+        #     exit_code = proc.wait()
+
+        # # Check if the command was successful
+        # if exit_code == 0:
+        #     logger.info("Command executed successfully.")
+        # else:
+        #     logger.error(f"Command failed with exit code {exit_code}.")
+        #     raise RuntimeError(f"Failed to convert EpJSON to IDF.")
+
+        # return str(path).split(".")[0] + f".{file_type}"
 
     @classmethod
     def convert(cls, path, eplus_location, output_directory, file_type="epjson"):
@@ -130,6 +150,22 @@ class EpJsonIDF:
             raise RuntimeError(f"Failed to convert EpJSON to IDF.")
 
         return str(path).split(".")[0] + f".{file_type}"
+
+    @classmethod
+    def parallel_convert(cls, files_and_dirs, eplus_location, file_type="epjson"):
+        def _parallel_convert(in_tuple):
+            path, out_dir = in_tuple
+            loc = eplus_location
+            tp = file_type
+            cls.convert(path=path, eplus_location=loc, output_directory=out_dir, file_type=tp)
+        with ThreadPoolExecutor(max_workers=8) as executor:
+            idfs = list(tqdm(executor.map(_parallel_convert, files_and_dirs), total=len(files_and_dirs)))
+        logger.info("Converted all idfs.")
+        return idfs
+    
+    @classmethod
+    def parallel_run(cls, idfs, eplus_location, file_type="epjson"):
+        pass
 
     def save(self):
         with open(self.epjson_path, "w") as f:
@@ -162,12 +198,8 @@ class EpJsonIDF:
 
     def replace_geometry(self, geometry_bunch):
         pass
-    
-    def fetch_features(self, features_map):
-        '''
-        Returns a pandas series of features for a given IDF, using a dictionary to map column names to idf entries.
-        '''
-        def _iter_paths(paths, zone=None, val_in=None):
+
+    def _iter_paths(self, paths, zone=None, val_in=None):
             val_out = self.epjson
             for path in paths:
                 n = path.replace("%ZONE%", zone)
@@ -175,6 +207,11 @@ class EpJsonIDF:
                     n = n.replace("%VAL%", str(val_in))
                 val_out = val_out[n]
             return val_out
+    
+    def fetch_features(self, features_map):
+        '''
+        Returns a pandas series of features for a given IDF, using a dictionary to map column names to idf entries.
+        '''
         
         features = {}
         # get zones
@@ -185,7 +222,7 @@ class EpJsonIDF:
                 if type(paths) == list:
                     # logger.info(f"Getting simple paths info for {key}")
                     try:
-                        zone_dict[key] = _iter_paths(paths, zone)
+                        zone_dict[key] = self._iter_paths(paths, zone)
                     except:
                         logger.warning(f"Cannot find {key} for zone {zone}")
                         zone_dict[key] = None
@@ -197,9 +234,9 @@ class EpJsonIDF:
                         try:
                             for i, subpaths in enumerate(paths.values()):
                                 if i < len(paths):
-                                    val = _iter_paths(subpaths, zone, val)
+                                    val = self._iter_paths(subpaths, zone, val)
                                 else:
-                                    val = _iter_paths(subpaths, zone)
+                                    val = self._iter_paths(subpaths, zone)
                             zone_dict[key] = val
                         except:
                             logger.warning(f"Cannot find {key} for zone {zone}")
@@ -222,21 +259,102 @@ class EpJsonIDF:
                                 ):
                                     construction_name = surface["construction_name"]
                                     break
+                        
                         if construction_name:
                             if "conductivity" in paths.keys():
                                 # Calculate U-value
-                                val = self.calculate_u(self.epjson["Construction"][construction_name])
+                                vals = self.calculate_u(self.epjson["Construction"][construction_name])
+                                val = sum(x for _, x, _ in vals)
                             elif "specific_heat" in paths.keys():
                                 # Calculate mass
                                 val = self.calculate_mass(self.epjson["Construction"][construction_name])
+                                val = sum(x for _, x, _ in vals) # * 10e-6
                             zone_dict[key] = val
                         else:
                             logger.warning(f"Cannot find {key} for zone {zone}")
             features[zone] = zone_dict
         return features
 
+    def replace_features(self, features, features_map):
+        '''
+        replaces values in an epJSON from a pandas series of features
+        '''
+        zones = list(self.epjson["Zone"].keys())
+        for key in features.index:
+            logger.info(f"Setting {key} to {features[key]}")
+            paths = features_map[key]
+            try:
+                if type(paths) == list:
+                    self.zone_update(
+                        paths[0], {paths[-1]: float(features[key])}
+                    )
+
+                elif type(paths) == dict:
+                    if "path0" in paths.keys():
+                        logger.debug(f"Nested setting, {key}")
+                        for zone in zones:
+                            val = None
+                            for i, subpaths in enumerate(paths.values()):
+                                if i < len(paths)-1:
+                                    val = self._iter_paths(subpaths, zone, val)
+                                else:
+                                    if "schedule" in subpaths[0].lower():
+                                        self.epjson[subpaths[0]].update({val: {subpaths[-1]: float(features[key])}})
+                                    else:
+                                        self.zone_update(
+                                            subpaths[0], {subpaths[-1]: float(features[key])}
+                                            )
+                                
+                    elif "surface_type" in paths.keys():
+                        logger.debug(f"Getting surface info for {key}")
+                        if paths["surface_type"] == "Window":
+                            logger.debug("Setting simple window settings.")
+                            windows = self.epjson["FenestrationSurface:Detailed"]
+                            if "WindowMaterial:SimpleGlazingSystem" not in self.epjson.keys():
+                                logger.warning("Replacing windows with simple window")
+                                construction_name = windows[list(windows.keys())[0]]["construction_name"]
+                                self.epjson["Construction"][construction_name] = {"outside_layer": "SimpleGlazing"}
+                                self.epjson["WindowMaterial:SimpleGlazingSystem"] = SIMPLE_GLAZING_TEMPLATE
+                            self.epjson["WindowMaterial:SimpleGlazingSystem"]["SimpleGlazing"].update({"u_factor": float(features[key])})
+                        else:
+                            logger.debug("Setting opaque surface.")
+                            surfaces = self.epjson["BuildingSurface:Detailed"]
+                            for zone in zones:
+                                for surface in surfaces.values():
+                                    if (surface["surface_type"] == paths["surface_type"] and 
+                                        surface["outside_boundary_condition"] == paths["outside_boundary_condition"] and
+                                        surface["zone_name"] == zone
+                                    ):
+                                        construction_name = surface["construction_name"]
+                                        break
+                            if "conductivity" in paths.keys():
+                                self.change_construction_r(self.epjson["Construction"][construction_name], float(1/features[key]))
+                            elif "specific_heat" in paths.keys():
+                                #TODO skipping mass now
+                                self.change_construction_mass(self.epjson["Construction"][construction_name], float(features[key] * 10e6))
+                    else:
+                        for _, paths2 in paths.items():
+                            self.zone_update(
+                                paths2[0], {paths2[-1]: float(features[key])}
+                            )
+            except Exception as e:
+                logger.warning(f"Missing {key}...")
+                if key == "ScheduledVentilationRate":
+                    # TODO: include schedule
+                    self.add_scheduled_ventilation(float(features[key]))
+                else:
+                    # logger.error(e)
+                    raise(e)
+            self.save()
+
+
+    def _calculate_layer_r(self, material_def):
+        k = material_def["conductivity"]
+        thick = material_def["thickness"]
+        return thick / k
+    
     def calculate_u(self, construction):
-        u_val = 0
+        u_vals = []
         for layer_name in construction.values():
             material_def = None
             try:
@@ -247,27 +365,182 @@ class EpJsonIDF:
                 except:
                     logger.debug("Gas layer, ignoring")
             if material_def:
-                k = material_def["conductivity"]
-                thick = material_def["thickness"]
-                u_val += thick / k
-        return 1/ u_val
+                u_vals.append((layer_name, 1/self._calculate_layer_r(material_def), material_def))
+        return u_vals
     
+    def calculate_r(self, construction):
+        r_vals = []
+        for layer_name in construction.values():
+            material_def = None
+            try:
+                material_def = self.epjson["Material"][layer_name]
+            except:
+                try:
+                    material_def = self.epjson["WindowMaterial:Glazing"][layer_name]
+                except:
+                    logger.debug("Gas layer, ignoring")
+            if material_def:
+                r_vals.append((layer_name, self._calculate_layer_r(material_def), material_def))
+        return r_vals
+
+    def _calculate_layer_mass(self, material_def):
+        c = material_def["specific_heat"]
+        thick = material_def["thickness"]
+        rho = material_def["density"]
+        return c * rho * thick
+
     def calculate_mass(self, construction):
-        tm = 0
+        tms = []
         for layer_name in construction.values():
             material_def = self.epjson["Material"][layer_name]
-            c = material_def["specific_heat"]
-            thick = material_def["thickness"]
-            rho = material_def["density"]
-            tm_val = c * rho * thick
-            tm += tm_val
-        return tm * 10e-6
+            tms.append((layer_name, self._calculate_layer_mass(material_def), material_def))
+        return tms
+    
+    def change_construction_r(self, construction, new_r):
+        """
+        Change a Construction's insulation layer to reach a target u
+        """
+        r_vals = self.calculate_r(construction)
+        current_r_val = sum(r_val for _, r_val, _ in r_vals)
+        logger.debug(f"Old R-val: {current_r_val}")
+        sorted_layers = sorted(r_vals, key=lambda x: -x[1])
+        insulator = sorted_layers[0]
+        logger.debug(f"Found insulator {insulator[0]}")
+        r_insulator_current = insulator[1]
+        insulator_def = insulator[2]
+        r_val_without_insulator = current_r_val - r_insulator_current
+        needed_r = new_r - r_val_without_insulator
+        # assert needed_r > 0
+        if needed_r > 0:
+            new_thickness = needed_r * insulator_def["conductivity"]
+            if new_thickness < 0:
+                raise ValueError("Desired R-value and TM combo is not possible.")
+            if new_thickness < 0.003:
+                logger.warning(
+                    "Thickness of insulation is less than 0.003. This will create a warning in EnergyPlus."
+                )
+        else:
+            #TODO: delete layer or repeat with next layer
+            new_thickness = 0.003
+        logger.debug(f"New thickness {new_thickness}")
+        insulator_def["thickness"] = round(new_thickness, 3)
+        new_r_vals = self.calculate_r(construction)
+        logger.debug(
+            f"New R-val = {sum(r for _, r, _ in new_r_vals)} compared to desired {new_r}"
+        )
+
+    def change_construction_mass(self, construction, new_tm):
+        """
+        specific heat (c) of the material layer from template is in units of J/(kg-K)
+        density is in kg/m3
+        thermal mass is in J/Km2 TM = c * density * thickness
+        """
+        r = self.calculate_r(construction)
+        r = sum(x for _, x, _ in r)
+        tm_vals = self.calculate_mass(construction)
+        current_tm = sum(x for _, x, _ in tm_vals)
+        logger.debug(f"Old thermal mass: {current_tm}, and RVal: {r}")
+        sorted_layers = sorted(tm_vals, key=lambda x: -x[1])
+        mass = sorted_layers[0]
+        logger.debug(f"Found massive layer {mass[0]}")
+        tm_mass_current = mass[1]
+        mass_def = mass[2]
+        tm_without_insulator = current_tm - tm_mass_current
+        needed_tm = new_tm - tm_without_insulator
+        assert needed_tm > 0
+        new_thickness = needed_tm / mass_def["specific_heat"] / mass_def["density"]
+        if new_thickness < 0:
+            raise ValueError("Desired R-value and TM combo is not possible.")
+        if new_thickness < 0.003:
+            logger.warning(
+                "Thickness of insulation is less than 0.003. This will create a warning in EnergyPlus."
+            )
+        logger.debug(f"New thickness {new_thickness}")
+        mass_def["thickness"] = round(new_thickness, 3)
+        new_tm_vals = self.calculate_mass(construction)
+        logger.debug(
+            f"New thermal mass = {sum(t for _, t, _ in new_tm_vals)} compared to desired {new_tm}"
+        )
+        # Check if mass/rvalue combo is possible
+        logger.debug("Recalculating r-values...")
+        self.change_construction_r(construction, r)
+        
 
     def ach_to_infilration(self):
         pass
 
     def infiltration_to_ach(self):
         pass
+
+    def add_scheduled_ventilation(self, air_changes_per_hour):
+        zones = self.epjson["Zone"].keys()
+        vent_dict = {}
+        for zone in zones:
+            vent_dict[f"{zone} ScheduledVent"] = {
+                "air_changes_per_hour": air_changes_per_hour,
+                "constant_term_coefficient": 1,
+                "delta_temperature": 1,
+                "design_flow_rate_calculation_method": "AirChanges/Hour",
+                "fan_pressure_rise": 0,
+                "fan_total_efficiency": 1,
+                "maximum_wind_speed": 40,
+                "minimum_indoor_temperature": 18,
+                "schedule_name": "AllOn",
+                "temperature_term_coefficient": 0,
+                "velocity_squared_term_coefficient": 0,
+                "velocity_term_coefficient": 0,
+                "ventilation_type": "Natural",
+                "zone_or_zonelist_or_space_or_spacelist_name": zone
+            }
+        self.epjson["ZoneVentilation:DesignFlowRate"] = vent_dict
+
+    @classmethod
+    def from_idf(cls, idf_path, eplus_loc=Path("C:\EnergyPlusV22-2-0"), **kwargs):
+        base = idf_path.parent
+        _epjson_path = base / idf_path.name.replace(".idf", ".epJSON")
+
+        if output_directory is None:
+            output_directory = idf_path.parent
+
+        # check if epjson exists
+        if not os.path.isfile(_epjson_path):
+            # if not, convert
+            new_file = cls.convert(
+                str(idf_path),
+                eplus_loc,
+                str(output_directory),
+                file_type="epjson",
+            )
+            assert new_file == _epjson_path
+        # except Exception as e:
+        #     logger.error("Error with conversion.")
+        #     logger.error(e)
+            # self.epjson_path = str(self.idf_path).split(".")[0] + ".epjson"
+        return cls(idf_path=idf_path, epjson_path=_epjson_path, output_directory=output_directory, eplus_loc=eplus_loc)
+        
+
+    @classmethod
+    def from_epjson(cls, epjson_path, eplus_loc=Path("C:\EnergyPlusV22-2-0"), **kwargs):
+        epjson_path = Path(epjson_path)
+        base = epjson_path.parent
+        idf_path = base / epjson_path.name.replace(".epJSON", ".idf")
+    
+        if "output_directory" in kwargs:
+            output_directory = kwargs.get("output_directory")
+        else:
+            output_directory = epjson_path.parent
+            
+        if not os.path.isfile(idf_path):
+            # if not, convert
+            new_file = cls.convert(
+                str(epjson_path),
+                eplus_loc,
+                str(output_directory),
+                file_type="idf",
+            )
+            assert new_file == idf_path
+
+        return cls(idf_path=idf_path, epjson_path=epjson_path, output_directory=output_directory, eplus_loc=eplus_loc)
     
     # @classmethod
     # def day_to_epbunch(cls, dsched, idx=0, sched_lim=sched_type_limits):
