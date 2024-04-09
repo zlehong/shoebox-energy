@@ -50,8 +50,7 @@ class SimulateCluster:
         self.epw = epw
         if idf_path_col != "ShoeboxPath":
             weights_df.rename(columns={idf_path_col: "ShoeboxPath"})
-        if building_col != "ParentBuildingId":
-            weights_df.rename(columns={building_col: "ParentBuildingId"})
+        self.building_col = building_col
         self.weights = weights_df
         self.weight_map = weight_map
 
@@ -94,7 +93,7 @@ class SimulateCluster:
     def fetch_building_results(self, building_id, selected_outputs=selected_outputs):
         results_df = pd.DataFrame(columns=selected_outputs, index=range(8760), data= np.zeros((8760, len(selected_outputs)))) #TODO: might not be hourly
         logger.info(f"Fetching results for {building_id}")
-        df = self.weights[self.weights["ParentBuildingId"] == building_id]
+        df = self.weights[self.weights[self.building_col] == building_id]
         logger.info(f"There are {df.shape[0]} shoeboxes for {building_id}")
 
         zones = [x for x in self.weight_map.keys()]
@@ -133,6 +132,7 @@ class SimulateCluster:
         return (Path(idf_path).name, EpJsonIDF.error_report(idf_path)[0])
 
     def parallel_simulate(self, max_workers=6):
+        # TODO: enable output directory, save idfs in files where they stop matching
         with ThreadPoolExecutor(max_workers=max_workers) as executor:
             r = list(tqdm(executor.map(self._simulate_single_idf, self.idfs), total=len(self.idfs)))
         logger.info("Simulated all idfs.")

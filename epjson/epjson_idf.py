@@ -252,6 +252,9 @@ class EpJsonIDF:
             json.dump(self.epjson, f, indent=4)
 
     def save_as(self, path):
+        path = Path(path)
+        if not os.path.isdir(path.parent):
+            os.makedirs(path.parent)
         with open(path, "w") as f:
             json.dump(self.epjson, f, indent=4)
 
