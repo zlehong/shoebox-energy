@@ -482,7 +482,7 @@ class EpJsonIDF:
                 else:
                     # logger.error(e)
                     raise(e)
-            self.save()
+            # self.save()
 
 
     def _calculate_layer_r(self, material_def):

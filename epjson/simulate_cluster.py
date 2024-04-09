@@ -123,7 +123,7 @@ class SimulateCluster:
         results_df["BuildingId"] = building_id
         return (building_id, results_df)
     
-    def _simulate_single_idf(self, idf_path, override=False):
+    def _simulate_single_idf(self, idf_path, override=True):
         if not os.path.isfile(Path(idf_path).parent / "eplusout.sql"):
             EpJsonIDF.run(idf_path=idf_path, eplus_location=self.eplus_location, epw=self.epw)
             assert os.path.isfile(Path(idf_path).parent / "eplusout.sql"), f"Error with getting SQL for {idf_path}"
