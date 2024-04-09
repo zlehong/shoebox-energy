@@ -48,10 +48,10 @@
         "%ZONE%Infiltration",
         "air_changes_per_hour"
     ],
-    "ScheduledVentilationRate": [
-        "ZoneVentilation:DesignFlowRate",
-        "%ZONE% ScheduledVent",
-        "air_changes_per_hour"
+    "InfiltrationType": [
+        "ZoneInfiltration:DesignFlowRate",
+        "%ZONE%Infiltration",
+        "design_flow_rate_calculation_method"
     ],
     "DHWFlowRate": [
         "WaterUse:Equipment",
@@ -75,12 +75,22 @@
         "%ZONE% Ideal Loads Air",
         "demand_controlled_ventilation_type"
     ],
-    "FacadeUValue": {
+    "CoolingAvailability": [
+        "ZoneHVAC:IdealLoadsAirSystem",
+        "%ZONE% Ideal Loads Air",
+        "cooling_availability_schedule_name"
+    ],
+    "HeatingAvailability": [
+        "ZoneHVAC:IdealLoadsAirSystem",
+        "%ZONE% Ideal Loads Air",
+        "heating_availability_schedule_name"
+    ],
+    "FacadeRValue": {
         "surface_type": "Wall",
         "outside_boundary_condition": "Outdoors",
         "conductivity": "%VAL%"
     },
-    "PartitionUValue": {
+    "PartitionRValue": {
         "surface_type": "Wall",
         "outside_boundary_condition": "Surface",
         "conductivity": "%VAL%"
@@ -90,7 +100,7 @@
         "outside_boundary_condition": "Outdoors",
         "specific_heat": "%VAL%"
     },
-    "RoofUValue": {
+    "RoofRValue": {
         "surface_type": "Roof",
         "outside_boundary_condition": "Outdoors",
         "conductivity": "%VAL%"
@@ -100,7 +110,7 @@
         "outside_boundary_condition": "Outdoors",
         "specific_heat": "%VAL%"
     },
-    "SlabUValue": {
+    "SlabRValue": {
         "surface_type": "Roof",
         "outside_boundary_condition": "Outdoors",
         "conductivity": "%VAL%"
@@ -108,6 +118,10 @@
     "WindowUValue": {
         "surface_type": "Window",
         "conductivity": "%VAL%"
+    },
+    "WindowSHGC": {
+        "surface_type": "Window",
+        "solar_heat_gain_coefficient": "%VAL%"
     },
     "RecoverySettings": [
         "ZoneHVAC:IdealLoadsAirSystem",
@@ -127,7 +141,7 @@
     "EquipmentPowerDensity": [
         "ElectricEquipment",
         "%ZONE% Equipment 1",
-        "schedule_name"
+        "watts_per_zone_floor_area"
     ],
     "VentilationPerArea": [
         "DesignSpecification:OutdoorAir",
@@ -143,11 +157,6 @@
         "ElectricEquipment",
         "%ZONE% Equipment 1",
         "schedule_name"
-    ],
-    "DHWSchedule": [
-        "WaterUse:Equipment",
-        "DHW %ZONE%",
-        "target_temperature_schedule_name"
     ],
     "OASchedule": [
         "DesignSpecification:OutdoorAir",

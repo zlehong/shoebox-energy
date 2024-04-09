@@ -29,7 +29,11 @@ from epjson.epjson_idf import EpJsonIDF
 )
 
 def main(csv_path, col, type):
-    df = pd.read_csv(csv_path)
+    df = pd.read_csv(csv_path) #D:\\Users\\zoelh\\Dropbox (MIT)\\4.S42 Campus Decarb\\Energy Modeling\\idfs\\umi\\shoeboxes2.csv
+    print(df.shape)
+    df = df.groupby("ShoeboxPath").first().reset_index()
+    print(df.shape)
+    # df = df[df.ParentBuildingId == "57f7cbb0-5996-4aff-a20e-18c2bf51f2aa"]
     idfs = df[col].to_list()
     print(len(idfs))
     eplus_location = Path("C:\EnergyPlusV22-2-0")

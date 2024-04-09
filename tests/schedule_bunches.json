@@ -1,0 +1,220 @@
+{
+    "Schedule:Day:Hourly": {
+        "30HrWkDay": {
+            "hour_1": 0.1,
+            "hour_2": 0.1,
+            "hour_3": 0.1,
+            "hour_4": 0.1,
+            "hour_5": 0.1,
+            "hour_6": 0.1,
+            "hour_7": 0.1,
+            "hour_8": 0.2,
+            "hour_9": 0.4,
+            "hour_10": 0.6,
+            "hour_11": 0.8,
+            "hour_12": 0.8,
+            "hour_13": 0.4,
+            "hour_14": 0.6,
+            "hour_15": 0.8,
+            "hour_16": 0.8,
+            "hour_17": 0.4,
+            "hour_18": 0.2,
+            "hour_19": 0.1,
+            "hour_20": 0.1,
+            "hour_21": 0.1,
+            "hour_22": 0.1,
+            "hour_23": 0.1,
+            "hour_24": 0.1,
+            "schedule_type_limits_name": "Fraction"
+        },
+        "60HrWkDay": {
+            "hour_1": 0.2,
+            "hour_2": 0.2,
+            "hour_3": 0.2,
+            "hour_4": 0.2,
+            "hour_5": 0.2,
+            "hour_6": 0.2,
+            "hour_7": 0.2,
+            "hour_8": 0.4,
+            "hour_9": 0.8,
+            "hour_10": 0.8,
+            "hour_11": 1,
+            "hour_12": 1,
+            "hour_13": 0.8,
+            "hour_14": 1,
+            "hour_15": 1,
+            "hour_16": 1,
+            "hour_17": 0.8,
+            "hour_18": 0.4,
+            "hour_19": 0.2,
+            "hour_20": 0.2,
+            "hour_21": 0.2,
+            "hour_22": 0.2,
+            "hour_23": 0.2,
+            "hour_24": 0.2,
+            "schedule_type_limits_name": "Fraction"
+        },
+        "AllOff": {
+            "hour_1": 0,
+            "hour_2": 0,
+            "hour_3": 0,
+            "hour_4": 0,
+            "hour_5": 0,
+            "hour_6": 0,
+            "hour_7": 0,
+            "hour_8": 0,
+            "hour_9": 0,
+            "hour_10": 0,
+            "hour_11": 0,
+            "hour_12": 0,
+            "hour_13": 0,
+            "hour_14": 0,
+            "hour_15": 0,
+            "hour_16": 0,
+            "hour_17": 0,
+            "hour_18": 0,
+            "hour_19": 0,
+            "hour_20": 0,
+            "hour_21": 0,
+            "hour_22": 0,
+            "hour_23": 0,
+            "hour_24": 0,
+            "schedule_type_limits_name": "Fraction"
+        },
+        "AllOn": {
+            "hour_1": 1,
+            "hour_2": 1,
+            "hour_3": 1,
+            "hour_4": 1,
+            "hour_5": 1,
+            "hour_6": 1,
+            "hour_7": 1,
+            "hour_8": 1,
+            "hour_9": 1,
+            "hour_10": 1,
+            "hour_11": 1,
+            "hour_12": 1,
+            "hour_13": 1,
+            "hour_14": 1,
+            "hour_15": 1,
+            "hour_16": 1,
+            "hour_17": 1,
+            "hour_18": 1,
+            "hour_19": 1,
+            "hour_20": 1,
+            "hour_21": 1,
+            "hour_22": 1,
+            "hour_23": 1,
+            "hour_24": 1,
+            "schedule_type_limits_name": "Fraction"
+        }
+    },
+    "Schedule:Week:Daily": {
+        "30HrWk": {
+            "customday1_schedule_day_name": "30HrWkDay",
+            "customday2_schedule_day_name": "30HrWkDay",
+            "friday_schedule_day_name": "30HrWkDay",
+            "holiday_schedule_day_name": "30HrWkDay",
+            "monday_schedule_day_name": "30HrWkDay",
+            "saturday_schedule_day_name": "30HrWkDay",
+            "summerdesignday_schedule_day_name": "30HrWkDay",
+            "sunday_schedule_day_name": "30HrWkDay",
+            "thursday_schedule_day_name": "30HrWkDay",
+            "tuesday_schedule_day_name": "30HrWkDay",
+            "wednesday_schedule_day_name": "30HrWkDay",
+            "winterdesignday_schedule_day_name": "30HrWkDay"
+        },
+        "60HrWk": {
+            "customday1_schedule_day_name": "60HrWkDay",
+            "customday2_schedule_day_name": "60HrWkDay",
+            "friday_schedule_day_name": "60HrWkDay",
+            "holiday_schedule_day_name": "60HrWkDay",
+            "monday_schedule_day_name": "60HrWkDay",
+            "saturday_schedule_day_name": "60HrWkDay",
+            "summerdesignday_schedule_day_name": "60HrWkDay",
+            "sunday_schedule_day_name": "60HrWkDay",
+            "thursday_schedule_day_name": "60HrWkDay",
+            "tuesday_schedule_day_name": "60HrWkDay",
+            "wednesday_schedule_day_name": "60HrWkDay",
+            "winterdesignday_schedule_day_name": "60HrWkDay"
+        },
+        "AllOff": {
+            "customday1_schedule_day_name": "AllOff",
+            "customday2_schedule_day_name": "AllOff",
+            "friday_schedule_day_name": "AllOff",
+            "holiday_schedule_day_name": "AllOff",
+            "monday_schedule_day_name": "AllOff",
+            "saturday_schedule_day_name": "AllOff",
+            "summerdesignday_schedule_day_name": "AllOff",
+            "sunday_schedule_day_name": "AllOff",
+            "thursday_schedule_day_name": "AllOff",
+            "tuesday_schedule_day_name": "AllOff",
+            "wednesday_schedule_day_name": "AllOff",
+            "winterdesignday_schedule_day_name": "AllOff"
+        },
+        "AllOn": {
+            "customday1_schedule_day_name": "AllOn",
+            "customday2_schedule_day_name": "AllOn",
+            "friday_schedule_day_name": "AllOn",
+            "holiday_schedule_day_name": "AllOn",
+            "monday_schedule_day_name": "AllOn",
+            "saturday_schedule_day_name": "AllOn",
+            "summerdesignday_schedule_day_name": "AllOn",
+            "sunday_schedule_day_name": "AllOn",
+            "thursday_schedule_day_name": "AllOn",
+            "tuesday_schedule_day_name": "AllOn",
+            "wednesday_schedule_day_name": "AllOn",
+            "winterdesignday_schedule_day_name": "AllOn"
+        }
+    },
+    "Schedule:Year": {
+        "30HrWk": {
+            "schedule_type_limits_name": "Fraction",
+            "schedule_weeks": [
+                {
+                    "end_day": 31,
+                    "end_month": 12,
+                    "schedule_week_name": "30HrWk",
+                    "start_day": 1,
+                    "start_month": 1
+                }
+            ]
+        },
+        "60HrWk": {
+            "schedule_type_limits_name": "Fraction",
+            "schedule_weeks": [
+                {
+                    "end_day": 31,
+                    "end_month": 12,
+                    "schedule_week_name": "60HrWk",
+                    "start_day": 1,
+                    "start_month": 1
+                }
+            ]
+        },
+        "AllOff": {
+            "schedule_type_limits_name": "Fraction",
+            "schedule_weeks": [
+                {
+                    "end_day": 31,
+                    "end_month": 12,
+                    "schedule_week_name": "AllOff",
+                    "start_day": 1,
+                    "start_month": 1
+                }
+            ]
+        },
+        "AllOn": {
+            "schedule_type_limits_name": "Fraction",
+            "schedule_weeks": [
+                {
+                    "end_day": 31,
+                    "end_month": 12,
+                    "schedule_week_name": "AllOn",
+                    "start_day": 1,
+                    "start_month": 1
+                }
+            ]
+        }
+    }
+}
