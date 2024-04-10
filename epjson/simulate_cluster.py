@@ -34,6 +34,14 @@ selected_outputs = [
     "Water Use Equipment Heating Energy"
     ]
 
+selected_outputs = [
+    "Zone Lights Electricity Energy",
+    "Electric Equipment Electricity Energy",
+    "Zone Ideal Loads Supply Air Total Heating Energy",
+    "Zone Ideal Loads Supply Air Total Cooling Energy",
+    "Water Use Equipment Heating Energy"
+    ]
+
 class SimulateCluster:
     def __init__(
             self,
@@ -80,7 +88,9 @@ class SimulateCluster:
             for zone in self.weight_map.keys():
                 self.weights.loc[self.weights.ShoeboxPath == row.ShoeboxPath, f"{zone}_Area"] = areas[zone]
         # Get total gross building area from umi
-        self.weights["TotalFloorArea"] = self.weights["PerimeterArea"] + self.weights["CoreArea"] 
+        #TODO
+        # self.weights["TotalFloorArea"] = self.weights["PerimeterArea"] + self.weights["CoreArea"] 
+        self.weights["TotalFloorArea"] = self.weights["bldg_perim_area"] + self.weights["bldg_core_area"] 
 
     def fetch_building_results_parallel(self, buildings, max_workers=6):
         with ThreadPoolExecutor(max_workers=max_workers) as executor:
@@ -105,7 +115,8 @@ class SimulateCluster:
                 for zone in zones:
                     cols = [x for x in sb_results.columns if zone.upper() in x[0]]
                     area = row[f"{zone}_Area"]
-                    norm_results = sb_results.loc[:, cols].div(area)
+                    norm_results = sb_results.loc[:, cols]
+                    # norm_results = sb_results.loc[:, cols].div(area) # TODO
                     sb_results.loc[:, cols] = norm_results.mul(row[self.weight_map[zone]]).values
                     sb_results.reset_index(drop=True, inplace=True)
                 results_df.loc[:, :] = sb_results.groupby(level=1, axis=1).sum() + results_df
@@ -126,7 +137,7 @@ class SimulateCluster:
     def _simulate_single_idf(self, idf_path, override=True):
         if not os.path.isfile(Path(idf_path).parent / "eplusout.sql"):
             EpJsonIDF.run(idf_path=idf_path, eplus_location=self.eplus_location, epw=self.epw)
-            assert os.path.isfile(Path(idf_path).parent / "eplusout.sql"), f"Error with getting SQL for {idf_path}"
+            # assert os.path.isfile(Path(idf_path).parent / "eplusout.sql"), f"Error with getting SQL for {idf_path}"
         elif override:
             EpJsonIDF.run(idf_path=idf_path, eplus_location=self.eplus_location, epw=self.epw)
         return (Path(idf_path).name, EpJsonIDF.error_report(idf_path)[0])

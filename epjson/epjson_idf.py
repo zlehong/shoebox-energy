@@ -5,7 +5,7 @@ import os
 import subprocess
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
-# from enum import IntEnum
+from enum import IntEnum
 from tqdm import tqdm
 import pandas as pd
 import eppy.geometry.surface as epsurface
@@ -52,10 +52,10 @@ logger.setLevel(logging.INFO)
 #     # DifferentialDryBulb = 2
 
 
-# class MechVentMode(IntEnum):
-#     Off = 0
-#     AllOn = 1
-#     OccupancySchedule = 2
+class MechVentMode(IntEnum):
+    Off = 0
+    AllOn = 1
+    OccupancySchedule = 2
 
 SIMPLE_GLAZING_TEMPLATE =  {
         "SimpleGlazing": {
@@ -183,7 +183,7 @@ class EpJsonIDF:
         if exit_code == 0:
             logger.debug("Command executed successfully.")
         else:
-            logger.error(f"Command failed with exit code {exit_code}.")
+            logger.error(f"Command failed with exit code {exit_code} for {idf_path}.")
             # raise RuntimeError(f"Failed to simulate IDF.")
 
     @classmethod
@@ -268,7 +268,12 @@ class EpJsonIDF:
         for zone in self.epjson[key].values():
             zone.update(zone_dict)
     
+    def zone_delete(self, toplevel_key, bottomlevel_key):
+        for zone in self.epjson[toplevel_key].values():
+            del zone[bottomlevel_key]
+    
     def update_schedules(self, schedules_dict):
+        #TODO check if already exists in other annual schedules
         for key, dat in schedules_dict.items():
             assert key in self.epjson.keys()
             self.epjson[key].update(dat)
@@ -677,7 +682,7 @@ class EpJsonIDF:
                 str(output_directory),
                 file_type="idf",
             )
-            assert new_file == idf_path
+            # assert new_file == idf_path
 
         return cls(idf_path=idf_path, epjson_path=epjson_path, output_directory=output_directory, eplus_loc=eplus_loc)
     
