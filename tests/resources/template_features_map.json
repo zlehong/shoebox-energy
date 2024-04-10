@@ -70,6 +70,11 @@
             "hourly_value"
         ]
     },
+    "DHWSchedule": [
+        "WaterUse:Equipment",
+        "DHW %ZONE%",
+        "flow_rate_fraction_schedule_name"
+    ],
     "VentilationMode": [
         "ZoneHVAC:IdealLoadsAirSystem",
         "%ZONE% Ideal Loads Air",

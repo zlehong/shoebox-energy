@@ -107,6 +107,60 @@
             "hour_23": 1,
             "hour_24": 1,
             "schedule_type_limits_name": "Fraction"
+        },
+        "Boston_Off_D_Dhw_WD": {
+            "hour_1": 0,
+            "hour_2": 0,
+            "hour_3": 0,
+            "hour_4": 0,
+            "hour_5": 0,
+            "hour_6": 0,
+            "hour_7": 0.2,
+            "hour_8": 0.4,
+            "hour_9": 0.4,
+            "hour_10": 0.4,
+            "hour_11": 0.4,
+            "hour_12": 0.6,
+            "hour_13": 0.6,
+            "hour_14": 0.4,
+            "hour_15": 0.4,
+            "hour_16": 0.4,
+            "hour_17": 0.4,
+            "hour_18": 0.4,
+            "hour_19": 0.4,
+            "hour_20": 0.2,
+            "hour_21": 0,
+            "hour_22": 0,
+            "hour_23": 0,
+            "hour_24": 0,
+            "schedule_type_limits_name": "Fraction"
+        },
+        "Boston_Off_D_Dhw_WE": {
+            "hour_1": 0,
+            "hour_2": 0,
+            "hour_3": 0,
+            "hour_4": 0,
+            "hour_5": 0,
+            "hour_6": 0,
+            "hour_7": 0.1,
+            "hour_8": 0.1,
+            "hour_9": 0.1,
+            "hour_10": 0.1,
+            "hour_11": 0.1,
+            "hour_12": 0.1,
+            "hour_13": 0.1,
+            "hour_14": 0.1,
+            "hour_15": 0.1,
+            "hour_16": 0.1,
+            "hour_17": 0.1,
+            "hour_18": 0.1,
+            "hour_19": 0.1,
+            "hour_20": 0.1,
+            "hour_21": 0,
+            "hour_22": 0,
+            "hour_23": 0,
+            "hour_24": 0,
+            "schedule_type_limits_name": "Fraction"
         }
     },
     "Schedule:Week:Daily": {
@@ -165,6 +219,20 @@
             "tuesday_schedule_day_name": "AllOn",
             "wednesday_schedule_day_name": "AllOn",
             "winterdesignday_schedule_day_name": "AllOn"
+        },
+        "Dhw0": {
+            "customday1_schedule_day_name": "Boston_Off_D_Dhw_WD",
+            "customday2_schedule_day_name": "Boston_Off_D_Dhw_WD",
+            "friday_schedule_day_name": "Boston_Off_D_Dhw_WD",
+            "holiday_schedule_day_name": "Boston_Off_D_Dhw_WE",
+            "monday_schedule_day_name": "Boston_Off_D_Dhw_WD",
+            "saturday_schedule_day_name": "Boston_Off_D_Dhw_WE",
+            "summerdesignday_schedule_day_name": "Boston_Off_D_Dhw_WD",
+            "sunday_schedule_day_name": "Boston_Off_D_Dhw_WE",
+            "thursday_schedule_day_name": "Boston_Off_D_Dhw_WD",
+            "tuesday_schedule_day_name": "Boston_Off_D_Dhw_WD",
+            "wednesday_schedule_day_name": "Boston_Off_D_Dhw_WD",
+            "winterdesignday_schedule_day_name": "Boston_Off_D_Dhw_WD"
         }
     },
     "Schedule:Year": {
@@ -211,6 +279,18 @@
                     "end_day": 31,
                     "end_month": 12,
                     "schedule_week_name": "AllOn",
+                    "start_day": 1,
+                    "start_month": 1
+                }
+            ]
+        },
+        "DHWOffice": {
+            "schedule_type_limits_name": "Fraction",
+            "schedule_weeks": [
+                {
+                    "end_day": 31,
+                    "end_month": 12,
+                    "schedule_week_name": "Dhw0",
                     "start_day": 1,
                     "start_month": 1
                 }
