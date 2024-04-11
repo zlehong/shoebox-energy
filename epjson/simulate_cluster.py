@@ -126,7 +126,7 @@ class SimulateCluster:
                 # raise e
                 # results_df.loc[:, :] += new
         norm_cols = [x+"_norm" for x in results_df.columns]
-        building_area = list(df.TotalFloorArea)[0]
+        building_area = list(df.TotalFloorArea)[0] * list(df.floor_count)[0] #TODO
         results_df.loc[:, norm_cols] = results_df.div(building_area).values
         results_df = results_df.mul(2.77e-7)
         results_df["ModelArea"] = building_area
