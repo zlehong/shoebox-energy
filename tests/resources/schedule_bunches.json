@@ -161,6 +161,492 @@
             "hour_23": 0,
             "hour_24": 0,
             "schedule_type_limits_name": "Fraction"
+        },
+        "d_AptEquipmentSchedule_00": {
+            "hour_1": 0.33,
+            "hour_2": 0.33,
+            "hour_3": 0.33,
+            "hour_4": 0.33,
+            "hour_5": 0.33,
+            "hour_6": 0.33,
+            "hour_7": 0.33,
+            "hour_8": 0.33,
+            "hour_9": 0.33,
+            "hour_10": 0.33,
+            "hour_11": 0.33,
+            "hour_12": 0.33,
+            "hour_13": 0.33,
+            "hour_14": 0.33,
+            "hour_15": 0.33,
+            "hour_16": 0.33,
+            "hour_17": 0.33,
+            "hour_18": 0.33,
+            "hour_19": 0.33,
+            "hour_20": 0.33,
+            "hour_21": 0.33,
+            "hour_22": 0.33,
+            "hour_23": 0.33,
+            "hour_24": 0.33,
+            "schedule_type_limits_name": "Fraction"
+        },
+        "d_AptEquipmentSchedule_01": {
+            "hour_1": 0.33,
+            "hour_2": 0.33,
+            "hour_3": 0.33,
+            "hour_4": 0.33,
+            "hour_5": 0.33,
+            "hour_6": 0.33,
+            "hour_7": 0.33,
+            "hour_8": 0.5,
+            "hour_9": 1.0,
+            "hour_10": 1.0,
+            "hour_11": 1.0,
+            "hour_12": 1.0,
+            "hour_13": 0.94,
+            "hour_14": 1.0,
+            "hour_15": 1.0,
+            "hour_16": 1.0,
+            "hour_17": 1.0,
+            "hour_18": 0.5,
+            "hour_19": 0.33,
+            "hour_20": 0.33,
+            "hour_21": 0.33,
+            "hour_22": 0.33,
+            "hour_23": 0.33,
+            "hour_24": 0.33,
+            "schedule_type_limits_name": "Fraction"
+        },
+        "d_AptLightsSchedule_00": {
+            "hour_1": 0.18,
+            "hour_2": 0.18,
+            "hour_3": 0.18,
+            "hour_4": 0.18,
+            "hour_5": 0.18,
+            "hour_6": 0.18,
+            "hour_7": 0.18,
+            "hour_8": 0.18,
+            "hour_9": 0.18,
+            "hour_10": 0.18,
+            "hour_11": 0.18,
+            "hour_12": 0.18,
+            "hour_13": 0.18,
+            "hour_14": 0.18,
+            "hour_15": 0.18,
+            "hour_16": 0.18,
+            "hour_17": 0.18,
+            "hour_18": 0.18,
+            "hour_19": 0.18,
+            "hour_20": 0.18,
+            "hour_21": 0.18,
+            "hour_22": 0.18,
+            "hour_23": 0.18,
+            "hour_24": 0.18,
+            "schedule_type_limits_name": "Fraction"
+        },
+        "d_AptLightsSchedule_01": {
+            "hour_1": 0.18,
+            "hour_2": 0.18,
+            "hour_3": 0.18,
+            "hour_4": 0.18,
+            "hour_5": 0.18,
+            "hour_6": 0.18,
+            "hour_7": 0.18,
+            "hour_8": 0.18,
+            "hour_9": 0.9,
+            "hour_10": 0.9,
+            "hour_11": 0.9,
+            "hour_12": 0.9,
+            "hour_13": 0.8,
+            "hour_14": 0.9,
+            "hour_15": 0.9,
+            "hour_16": 0.9,
+            "hour_17": 0.9,
+            "hour_18": 0.18,
+            "hour_19": 0.18,
+            "hour_20": 0.18,
+            "hour_21": 0.18,
+            "hour_22": 0.18,
+            "hour_23": 0.18,
+            "hour_24": 0.18,
+            "schedule_type_limits_name": "Fraction"
+        },
+        "d_AptOccupancySchedule_00": {
+            "hour_1": 0.0,
+            "hour_2": 0.0,
+            "hour_3": 0.0,
+            "hour_4": 0.0,
+            "hour_5": 0.0,
+            "hour_6": 0.0,
+            "hour_7": 0.0,
+            "hour_8": 0.0,
+            "hour_9": 0.0,
+            "hour_10": 0.0,
+            "hour_11": 0.0,
+            "hour_12": 0.0,
+            "hour_13": 0.0,
+            "hour_14": 0.0,
+            "hour_15": 0.0,
+            "hour_16": 0.0,
+            "hour_17": 0.0,
+            "hour_18": 0.0,
+            "hour_19": 0.0,
+            "hour_20": 0.0,
+            "hour_21": 0.0,
+            "hour_22": 0.0,
+            "hour_23": 0.0,
+            "hour_24": 0.0,
+            "schedule_type_limits_name": "Fraction"
+        },
+        "d_AptOccupancySchedule_01": {
+            "hour_1": 0.0,
+            "hour_2": 0.0,
+            "hour_3": 0.0,
+            "hour_4": 0.0,
+            "hour_5": 0.0,
+            "hour_6": 0.0,
+            "hour_7": 0.0,
+            "hour_8": 0.0,
+            "hour_9": 1.0,
+            "hour_10": 1.0,
+            "hour_11": 1.0,
+            "hour_12": 1.0,
+            "hour_13": 0.5,
+            "hour_14": 1.0,
+            "hour_15": 1.0,
+            "hour_16": 1.0,
+            "hour_17": 1.0,
+            "hour_18": 0.0,
+            "hour_19": 0.0,
+            "hour_20": 0.0,
+            "hour_21": 0.0,
+            "hour_22": 0.0,
+            "hour_23": 0.0,
+            "hour_24": 0.0,
+            "schedule_type_limits_name": "Fraction"
+        },
+        "d_SchoolEquipmentSchedule_00": {
+            "hour_1": 0.25,
+            "hour_2": 0.25,
+            "hour_3": 0.25,
+            "hour_4": 0.25,
+            "hour_5": 0.25,
+            "hour_6": 0.25,
+            "hour_7": 0.25,
+            "hour_8": 0.25,
+            "hour_9": 0.25,
+            "hour_10": 0.25,
+            "hour_11": 0.25,
+            "hour_12": 0.25,
+            "hour_13": 0.25,
+            "hour_14": 0.25,
+            "hour_15": 0.25,
+            "hour_16": 0.25,
+            "hour_17": 0.25,
+            "hour_18": 0.25,
+            "hour_19": 0.25,
+            "hour_20": 0.25,
+            "hour_21": 0.25,
+            "hour_22": 0.25,
+            "hour_23": 0.25,
+            "hour_24": 0.25,
+            "schedule_type_limits_name": "Fraction"
+        },
+        "d_SchoolEquipmentSchedule_01": {
+            "hour_1": 0.25,
+            "hour_2": 0.25,
+            "hour_3": 0.25,
+            "hour_4": 0.25,
+            "hour_5": 0.25,
+            "hour_6": 0.25,
+            "hour_7": 0.25,
+            "hour_8": 0.25,
+            "hour_9": 0.5,
+            "hour_10": 0.5,
+            "hour_11": 0.5,
+            "hour_12": 0.5,
+            "hour_13": 0.5,
+            "hour_14": 0.5,
+            "hour_15": 0.5,
+            "hour_16": 0.5,
+            "hour_17": 0.5,
+            "hour_18": 0.25,
+            "hour_19": 0.25,
+            "hour_20": 0.25,
+            "hour_21": 0.25,
+            "hour_22": 0.25,
+            "hour_23": 0.25,
+            "hour_24": 0.25,
+            "schedule_type_limits_name": "Fraction"
+        },
+        "d_SchoolEquipmentSchedule_02": {
+            "hour_1": 0.35,
+            "hour_2": 0.35,
+            "hour_3": 0.35,
+            "hour_4": 0.35,
+            "hour_5": 0.35,
+            "hour_6": 0.35,
+            "hour_7": 0.35,
+            "hour_8": 0.35,
+            "hour_9": 0.35,
+            "hour_10": 0.35,
+            "hour_11": 0.35,
+            "hour_12": 0.35,
+            "hour_13": 0.35,
+            "hour_14": 0.35,
+            "hour_15": 0.35,
+            "hour_16": 0.35,
+            "hour_17": 0.35,
+            "hour_18": 0.35,
+            "hour_19": 0.35,
+            "hour_20": 0.35,
+            "hour_21": 0.35,
+            "hour_22": 0.35,
+            "hour_23": 0.35,
+            "hour_24": 0.35,
+            "schedule_type_limits_name": "Fraction"
+        },
+        "d_SchoolEquipmentSchedule_03": {
+            "hour_1": 0.35,
+            "hour_2": 0.35,
+            "hour_3": 0.35,
+            "hour_4": 0.35,
+            "hour_5": 0.35,
+            "hour_6": 0.35,
+            "hour_7": 0.35,
+            "hour_8": 0.35,
+            "hour_9": 0.95,
+            "hour_10": 0.95,
+            "hour_11": 0.95,
+            "hour_12": 0.95,
+            "hour_13": 0.95,
+            "hour_14": 0.95,
+            "hour_15": 0.95,
+            "hour_16": 0.95,
+            "hour_17": 0.95,
+            "hour_18": 0.35,
+            "hour_19": 0.35,
+            "hour_20": 0.35,
+            "hour_21": 0.35,
+            "hour_22": 0.35,
+            "hour_23": 0.35,
+            "hour_24": 0.35,
+            "schedule_type_limits_name": "Fraction"
+        },
+        "d_SchoolLightsSchedule_00": {
+            "hour_1": 0.1773,
+            "hour_2": 0.1773,
+            "hour_3": 0.1773,
+            "hour_4": 0.1773,
+            "hour_5": 0.1773,
+            "hour_6": 0.1773,
+            "hour_7": 0.1773,
+            "hour_8": 0.1773,
+            "hour_9": 0.1773,
+            "hour_10": 0.1773,
+            "hour_11": 0.1773,
+            "hour_12": 0.1773,
+            "hour_13": 0.1773,
+            "hour_14": 0.1773,
+            "hour_15": 0.1773,
+            "hour_16": 0.1773,
+            "hour_17": 0.1773,
+            "hour_18": 0.1773,
+            "hour_19": 0.1773,
+            "hour_20": 0.1773,
+            "hour_21": 0.1773,
+            "hour_22": 0.1773,
+            "hour_23": 0.1773,
+            "hour_24": 0.1773,
+            "schedule_type_limits_name": "Fraction"
+        },
+        "d_SchoolLightsSchedule_01": {
+            "hour_1": 0.1773,
+            "hour_2": 0.1773,
+            "hour_3": 0.1773,
+            "hour_4": 0.1773,
+            "hour_5": 0.1773,
+            "hour_6": 0.1773,
+            "hour_7": 0.1773,
+            "hour_8": 0.1773,
+            "hour_9": 0.5,
+            "hour_10": 0.5,
+            "hour_11": 0.5,
+            "hour_12": 0.5,
+            "hour_13": 0.5,
+            "hour_14": 0.5,
+            "hour_15": 0.5,
+            "hour_16": 0.5,
+            "hour_17": 0.5,
+            "hour_18": 0.5,
+            "hour_19": 0.5,
+            "hour_20": 0.5,
+            "hour_21": 0.1773,
+            "hour_22": 0.1773,
+            "hour_23": 0.1773,
+            "hour_24": 0.1773,
+            "schedule_type_limits_name": "Fraction"
+        },
+        "d_SchoolLightsSchedule_02": {
+            "hour_1": 0.1773,
+            "hour_2": 0.1773,
+            "hour_3": 0.1773,
+            "hour_4": 0.1773,
+            "hour_5": 0.1773,
+            "hour_6": 0.1773,
+            "hour_7": 0.1773,
+            "hour_8": 0.9,
+            "hour_9": 0.9,
+            "hour_10": 0.9,
+            "hour_11": 0.9,
+            "hour_12": 0.9,
+            "hour_13": 0.9,
+            "hour_14": 0.9,
+            "hour_15": 0.9,
+            "hour_16": 0.9,
+            "hour_17": 0.9,
+            "hour_18": 0.9,
+            "hour_19": 0.9,
+            "hour_20": 0.9,
+            "hour_21": 0.9,
+            "hour_22": 0.1773,
+            "hour_23": 0.1773,
+            "hour_24": 0.1773,
+            "schedule_type_limits_name": "Fraction"
+        },
+        "d_SchoolOccupancySchedule_00": {
+            "hour_1": 0.0,
+            "hour_2": 0.0,
+            "hour_3": 0.0,
+            "hour_4": 0.0,
+            "hour_5": 0.0,
+            "hour_6": 0.0,
+            "hour_7": 0.0,
+            "hour_8": 0.0,
+            "hour_9": 0.0,
+            "hour_10": 0.0,
+            "hour_11": 0.0,
+            "hour_12": 0.0,
+            "hour_13": 0.0,
+            "hour_14": 0.0,
+            "hour_15": 0.0,
+            "hour_16": 0.0,
+            "hour_17": 0.0,
+            "hour_18": 0.0,
+            "hour_19": 0.0,
+            "hour_20": 0.0,
+            "hour_21": 0.0,
+            "hour_22": 0.0,
+            "hour_23": 0.0,
+            "hour_24": 0.0,
+            "schedule_type_limits_name": "Fraction"
+        },
+        "d_SchoolOccupancySchedule_01": {
+            "hour_1": 0.0,
+            "hour_2": 0.0,
+            "hour_3": 0.0,
+            "hour_4": 0.0,
+            "hour_5": 0.0,
+            "hour_6": 0.0,
+            "hour_7": 0.0,
+            "hour_8": 0.0,
+            "hour_9": 0.15,
+            "hour_10": 0.15,
+            "hour_11": 0.15,
+            "hour_12": 0.15,
+            "hour_13": 0.15,
+            "hour_14": 0.15,
+            "hour_15": 0.15,
+            "hour_16": 0.15,
+            "hour_17": 0.15,
+            "hour_18": 0.35,
+            "hour_19": 0.35,
+            "hour_20": 0.0,
+            "hour_21": 0.0,
+            "hour_22": 0.0,
+            "hour_23": 0.0,
+            "hour_24": 0.0,
+            "schedule_type_limits_name": "Fraction"
+        },
+        "d_SchoolOccupancySchedule_02": {
+            "hour_1": 0.0,
+            "hour_2": 0.0,
+            "hour_3": 0.0,
+            "hour_4": 0.0,
+            "hour_5": 0.0,
+            "hour_6": 0.0,
+            "hour_7": 0.0,
+            "hour_8": 0.0,
+            "hour_9": 0.25,
+            "hour_10": 0.25,
+            "hour_11": 0.25,
+            "hour_12": 0.25,
+            "hour_13": 0.25,
+            "hour_14": 0.25,
+            "hour_15": 0.25,
+            "hour_16": 0.95,
+            "hour_17": 0.95,
+            "hour_18": 0.1,
+            "hour_19": 0.1,
+            "hour_20": 0.1,
+            "hour_21": 0.0,
+            "hour_22": 0.0,
+            "hour_23": 0.0,
+            "hour_24": 0.0,
+            "schedule_type_limits_name": "Fraction"
+        },
+        "d_AptDHW_00": {
+            "hour_1": 0.0,
+            "hour_2": 0.0,
+            "hour_3": 0.0,
+            "hour_4": 0.0,
+            "hour_5": 0.0,
+            "hour_6": 0.0,
+            "hour_7": 0.0,
+            "hour_8": 0.0,
+            "hour_9": 0.0,
+            "hour_10": 0.0,
+            "hour_11": 0.0,
+            "hour_12": 0.0,
+            "hour_13": 0.0,
+            "hour_14": 0.0,
+            "hour_15": 0.0,
+            "hour_16": 0.0,
+            "hour_17": 0.0,
+            "hour_18": 0.0,
+            "hour_19": 0.0,
+            "hour_20": 0.0,
+            "hour_21": 0.0,
+            "hour_22": 0.0,
+            "hour_23": 0.0,
+            "hour_24": 0.0,
+            "schedule_type_limits_name": "Fraction"
+        },
+        "d_AptDHW_01": {
+            "hour_1": 0.0,
+            "hour_2": 0.0,
+            "hour_3": 0.0,
+            "hour_4": 0.0,
+            "hour_5": 0.0,
+            "hour_6": 0.0,
+            "hour_7": 0.0,
+            "hour_8": 0.0,
+            "hour_9": 0.6,
+            "hour_10": 0.6,
+            "hour_11": 0.6,
+            "hour_12": 0.6,
+            "hour_13": 0.3,
+            "hour_14": 0.6,
+            "hour_15": 0.6,
+            "hour_16": 0.6,
+            "hour_17": 0.6,
+            "hour_18": 0.0,
+            "hour_19": 0.0,
+            "hour_20": 0.0,
+            "hour_21": 0.0,
+            "hour_22": 0.0,
+            "hour_23": 0.0,
+            "hour_24": 0.0,
+            "schedule_type_limits_name": "Fraction"
         }
     },
     "Schedule:Week:Daily": {
@@ -233,6 +719,468 @@
             "tuesday_schedule_day_name": "Boston_Off_D_Dhw_WD",
             "wednesday_schedule_day_name": "Boston_Off_D_Dhw_WD",
             "winterdesignday_schedule_day_name": "Boston_Off_D_Dhw_WD"
+        },
+        "w_AptEquipmentSchedule_00": {
+            "monday_schedule_day_name": "d_AptEquipmentSchedule_00",
+            "tuesday_schedule_day_name": "d_AptEquipmentSchedule_00",
+            "wednesday_schedule_day_name": "d_AptEquipmentSchedule_01",
+            "thursday_schedule_day_name": "d_AptEquipmentSchedule_01",
+            "friday_schedule_day_name": "d_AptEquipmentSchedule_01",
+            "saturday_schedule_day_name": "d_AptEquipmentSchedule_01",
+            "sunday_schedule_day_name": "d_AptEquipmentSchedule_00",
+            "holiday_schedule_day_name": "d_AptEquipmentSchedule_00",
+            "summerdesignday_schedule_day_name": "d_AptEquipmentSchedule_00",
+            "winterdesignday_schedule_day_name": "d_AptEquipmentSchedule_00",
+            "customday1_schedule_day_name": "d_AptEquipmentSchedule_00",
+            "customday2_schedule_day_name": "d_AptEquipmentSchedule_00"
+        },
+        "w_AptEquipmentSchedule_01": {
+            "monday_schedule_day_name": "d_AptEquipmentSchedule_00",
+            "tuesday_schedule_day_name": "d_AptEquipmentSchedule_01",
+            "wednesday_schedule_day_name": "d_AptEquipmentSchedule_00",
+            "thursday_schedule_day_name": "d_AptEquipmentSchedule_01",
+            "friday_schedule_day_name": "d_AptEquipmentSchedule_01",
+            "saturday_schedule_day_name": "d_AptEquipmentSchedule_01",
+            "sunday_schedule_day_name": "d_AptEquipmentSchedule_00",
+            "holiday_schedule_day_name": "d_AptEquipmentSchedule_00",
+            "summerdesignday_schedule_day_name": "d_AptEquipmentSchedule_00",
+            "winterdesignday_schedule_day_name": "d_AptEquipmentSchedule_00",
+            "customday1_schedule_day_name": "d_AptEquipmentSchedule_01",
+            "customday2_schedule_day_name": "d_AptEquipmentSchedule_00"
+        },
+        "w_AptEquipmentSchedule_02": {
+            "monday_schedule_day_name": "d_AptEquipmentSchedule_00",
+            "tuesday_schedule_day_name": "d_AptEquipmentSchedule_01",
+            "wednesday_schedule_day_name": "d_AptEquipmentSchedule_01",
+            "thursday_schedule_day_name": "d_AptEquipmentSchedule_01",
+            "friday_schedule_day_name": "d_AptEquipmentSchedule_00",
+            "saturday_schedule_day_name": "d_AptEquipmentSchedule_01",
+            "sunday_schedule_day_name": "d_AptEquipmentSchedule_00",
+            "holiday_schedule_day_name": "d_AptEquipmentSchedule_00",
+            "summerdesignday_schedule_day_name": "d_AptEquipmentSchedule_00",
+            "winterdesignday_schedule_day_name": "d_AptEquipmentSchedule_00",
+            "customday1_schedule_day_name": "d_AptEquipmentSchedule_01",
+            "customday2_schedule_day_name": "d_AptEquipmentSchedule_00"
+        },
+        "w_AptEquipmentSchedule_03": {
+            "monday_schedule_day_name": "d_AptEquipmentSchedule_00",
+            "tuesday_schedule_day_name": "d_AptEquipmentSchedule_01",
+            "wednesday_schedule_day_name": "d_AptEquipmentSchedule_01",
+            "thursday_schedule_day_name": "d_AptEquipmentSchedule_01",
+            "friday_schedule_day_name": "d_AptEquipmentSchedule_01",
+            "saturday_schedule_day_name": "d_AptEquipmentSchedule_01",
+            "sunday_schedule_day_name": "d_AptEquipmentSchedule_00",
+            "holiday_schedule_day_name": "d_AptEquipmentSchedule_00",
+            "summerdesignday_schedule_day_name": "d_AptEquipmentSchedule_00",
+            "winterdesignday_schedule_day_name": "d_AptEquipmentSchedule_00",
+            "customday1_schedule_day_name": "d_AptEquipmentSchedule_01",
+            "customday2_schedule_day_name": "d_AptEquipmentSchedule_00"
+        },
+        "w_AptLightsSchedule_00": {
+            "monday_schedule_day_name": "d_AptLightsSchedule_00",
+            "tuesday_schedule_day_name": "d_AptLightsSchedule_00",
+            "wednesday_schedule_day_name": "d_AptLightsSchedule_01",
+            "thursday_schedule_day_name": "d_AptLightsSchedule_01",
+            "friday_schedule_day_name": "d_AptLightsSchedule_01",
+            "saturday_schedule_day_name": "d_AptLightsSchedule_01",
+            "sunday_schedule_day_name": "d_AptLightsSchedule_00",
+            "holiday_schedule_day_name": "d_AptLightsSchedule_00",
+            "summerdesignday_schedule_day_name": "d_AptLightsSchedule_00",
+            "winterdesignday_schedule_day_name": "d_AptLightsSchedule_00",
+            "customday1_schedule_day_name": "d_AptLightsSchedule_00",
+            "customday2_schedule_day_name": "d_AptLightsSchedule_00"
+        },
+        "w_AptLightsSchedule_01": {
+            "monday_schedule_day_name": "d_AptLightsSchedule_00",
+            "tuesday_schedule_day_name": "d_AptLightsSchedule_01",
+            "wednesday_schedule_day_name": "d_AptLightsSchedule_00",
+            "thursday_schedule_day_name": "d_AptLightsSchedule_01",
+            "friday_schedule_day_name": "d_AptLightsSchedule_01",
+            "saturday_schedule_day_name": "d_AptLightsSchedule_01",
+            "sunday_schedule_day_name": "d_AptLightsSchedule_00",
+            "holiday_schedule_day_name": "d_AptLightsSchedule_00",
+            "summerdesignday_schedule_day_name": "d_AptLightsSchedule_00",
+            "winterdesignday_schedule_day_name": "d_AptLightsSchedule_00",
+            "customday1_schedule_day_name": "d_AptLightsSchedule_01",
+            "customday2_schedule_day_name": "d_AptLightsSchedule_00"
+        },
+        "w_AptLightsSchedule_02": {
+            "monday_schedule_day_name": "d_AptLightsSchedule_00",
+            "tuesday_schedule_day_name": "d_AptLightsSchedule_01",
+            "wednesday_schedule_day_name": "d_AptLightsSchedule_01",
+            "thursday_schedule_day_name": "d_AptLightsSchedule_01",
+            "friday_schedule_day_name": "d_AptLightsSchedule_00",
+            "saturday_schedule_day_name": "d_AptLightsSchedule_01",
+            "sunday_schedule_day_name": "d_AptLightsSchedule_00",
+            "holiday_schedule_day_name": "d_AptLightsSchedule_00",
+            "summerdesignday_schedule_day_name": "d_AptLightsSchedule_00",
+            "winterdesignday_schedule_day_name": "d_AptLightsSchedule_00",
+            "customday1_schedule_day_name": "d_AptLightsSchedule_01",
+            "customday2_schedule_day_name": "d_AptLightsSchedule_00"
+        },
+        "w_AptLightsSchedule_03": {
+            "monday_schedule_day_name": "d_AptLightsSchedule_00",
+            "tuesday_schedule_day_name": "d_AptLightsSchedule_01",
+            "wednesday_schedule_day_name": "d_AptLightsSchedule_01",
+            "thursday_schedule_day_name": "d_AptLightsSchedule_01",
+            "friday_schedule_day_name": "d_AptLightsSchedule_01",
+            "saturday_schedule_day_name": "d_AptLightsSchedule_01",
+            "sunday_schedule_day_name": "d_AptLightsSchedule_00",
+            "holiday_schedule_day_name": "d_AptLightsSchedule_00",
+            "summerdesignday_schedule_day_name": "d_AptLightsSchedule_00",
+            "winterdesignday_schedule_day_name": "d_AptLightsSchedule_00",
+            "customday1_schedule_day_name": "d_AptLightsSchedule_01",
+            "customday2_schedule_day_name": "d_AptLightsSchedule_00"
+        },
+        "w_AptOccupancySchedule_00": {
+            "monday_schedule_day_name": "d_AptOccupancySchedule_00",
+            "tuesday_schedule_day_name": "d_AptOccupancySchedule_00",
+            "wednesday_schedule_day_name": "d_AptOccupancySchedule_01",
+            "thursday_schedule_day_name": "d_AptOccupancySchedule_01",
+            "friday_schedule_day_name": "d_AptOccupancySchedule_01",
+            "saturday_schedule_day_name": "d_AptOccupancySchedule_01",
+            "sunday_schedule_day_name": "d_AptOccupancySchedule_00",
+            "holiday_schedule_day_name": "d_AptOccupancySchedule_00",
+            "summerdesignday_schedule_day_name": "d_AptOccupancySchedule_00",
+            "winterdesignday_schedule_day_name": "d_AptOccupancySchedule_00",
+            "customday1_schedule_day_name": "d_AptOccupancySchedule_00",
+            "customday2_schedule_day_name": "d_AptOccupancySchedule_00"
+        },
+        "w_AptOccupancySchedule_01": {
+            "monday_schedule_day_name": "d_AptOccupancySchedule_00",
+            "tuesday_schedule_day_name": "d_AptOccupancySchedule_01",
+            "wednesday_schedule_day_name": "d_AptOccupancySchedule_00",
+            "thursday_schedule_day_name": "d_AptOccupancySchedule_01",
+            "friday_schedule_day_name": "d_AptOccupancySchedule_01",
+            "saturday_schedule_day_name": "d_AptOccupancySchedule_01",
+            "sunday_schedule_day_name": "d_AptOccupancySchedule_00",
+            "holiday_schedule_day_name": "d_AptOccupancySchedule_00",
+            "summerdesignday_schedule_day_name": "d_AptOccupancySchedule_00",
+            "winterdesignday_schedule_day_name": "d_AptOccupancySchedule_00",
+            "customday1_schedule_day_name": "d_AptOccupancySchedule_01",
+            "customday2_schedule_day_name": "d_AptOccupancySchedule_00"
+        },
+        "w_AptOccupancySchedule_02": {
+            "monday_schedule_day_name": "d_AptOccupancySchedule_00",
+            "tuesday_schedule_day_name": "d_AptOccupancySchedule_01",
+            "wednesday_schedule_day_name": "d_AptOccupancySchedule_01",
+            "thursday_schedule_day_name": "d_AptOccupancySchedule_01",
+            "friday_schedule_day_name": "d_AptOccupancySchedule_00",
+            "saturday_schedule_day_name": "d_AptOccupancySchedule_01",
+            "sunday_schedule_day_name": "d_AptOccupancySchedule_00",
+            "holiday_schedule_day_name": "d_AptOccupancySchedule_00",
+            "summerdesignday_schedule_day_name": "d_AptOccupancySchedule_00",
+            "winterdesignday_schedule_day_name": "d_AptOccupancySchedule_00",
+            "customday1_schedule_day_name": "d_AptOccupancySchedule_01",
+            "customday2_schedule_day_name": "d_AptOccupancySchedule_00"
+        },
+        "w_AptOccupancySchedule_03": {
+            "monday_schedule_day_name": "d_AptOccupancySchedule_00",
+            "tuesday_schedule_day_name": "d_AptOccupancySchedule_01",
+            "wednesday_schedule_day_name": "d_AptOccupancySchedule_01",
+            "thursday_schedule_day_name": "d_AptOccupancySchedule_01",
+            "friday_schedule_day_name": "d_AptOccupancySchedule_01",
+            "saturday_schedule_day_name": "d_AptOccupancySchedule_01",
+            "sunday_schedule_day_name": "d_AptOccupancySchedule_00",
+            "holiday_schedule_day_name": "d_AptOccupancySchedule_00",
+            "summerdesignday_schedule_day_name": "d_AptOccupancySchedule_00",
+            "winterdesignday_schedule_day_name": "d_AptOccupancySchedule_00",
+            "customday1_schedule_day_name": "d_AptOccupancySchedule_01",
+            "customday2_schedule_day_name": "d_AptOccupancySchedule_00"
+        },
+        "w_SchoolEquipmentSchedule_00": {
+            "monday_schedule_day_name": "d_SchoolEquipmentSchedule_00",
+            "tuesday_schedule_day_name": "d_SchoolEquipmentSchedule_01",
+            "wednesday_schedule_day_name": "d_SchoolEquipmentSchedule_00",
+            "thursday_schedule_day_name": "d_SchoolEquipmentSchedule_01",
+            "friday_schedule_day_name": "d_SchoolEquipmentSchedule_01",
+            "saturday_schedule_day_name": "d_SchoolEquipmentSchedule_01",
+            "sunday_schedule_day_name": "d_SchoolEquipmentSchedule_00",
+            "holiday_schedule_day_name": "d_SchoolEquipmentSchedule_00",
+            "summerdesignday_schedule_day_name": "d_SchoolEquipmentSchedule_00",
+            "winterdesignday_schedule_day_name": "d_SchoolEquipmentSchedule_00",
+            "customday1_schedule_day_name": "d_SchoolEquipmentSchedule_01",
+            "customday2_schedule_day_name": "d_SchoolEquipmentSchedule_00"
+        },
+        "w_SchoolEquipmentSchedule_01": {
+            "monday_schedule_day_name": "d_SchoolEquipmentSchedule_00",
+            "tuesday_schedule_day_name": "d_SchoolEquipmentSchedule_01",
+            "wednesday_schedule_day_name": "d_SchoolEquipmentSchedule_01",
+            "thursday_schedule_day_name": "d_SchoolEquipmentSchedule_01",
+            "friday_schedule_day_name": "d_SchoolEquipmentSchedule_01",
+            "saturday_schedule_day_name": "d_SchoolEquipmentSchedule_01",
+            "sunday_schedule_day_name": "d_SchoolEquipmentSchedule_00",
+            "holiday_schedule_day_name": "d_SchoolEquipmentSchedule_00",
+            "summerdesignday_schedule_day_name": "d_SchoolEquipmentSchedule_00",
+            "winterdesignday_schedule_day_name": "d_SchoolEquipmentSchedule_00",
+            "customday1_schedule_day_name": "d_SchoolEquipmentSchedule_01",
+            "customday2_schedule_day_name": "d_SchoolEquipmentSchedule_00"
+        },
+        "w_SchoolEquipmentSchedule_02": {
+            "monday_schedule_day_name": "d_SchoolEquipmentSchedule_00",
+            "tuesday_schedule_day_name": "d_SchoolEquipmentSchedule_01",
+            "wednesday_schedule_day_name": "d_SchoolEquipmentSchedule_01",
+            "thursday_schedule_day_name": "d_SchoolEquipmentSchedule_01",
+            "friday_schedule_day_name": "d_SchoolEquipmentSchedule_01",
+            "saturday_schedule_day_name": "d_SchoolEquipmentSchedule_01",
+            "sunday_schedule_day_name": "d_SchoolEquipmentSchedule_02",
+            "holiday_schedule_day_name": "d_SchoolEquipmentSchedule_02",
+            "summerdesignday_schedule_day_name": "d_SchoolEquipmentSchedule_00",
+            "winterdesignday_schedule_day_name": "d_SchoolEquipmentSchedule_00",
+            "customday1_schedule_day_name": "d_SchoolEquipmentSchedule_01",
+            "customday2_schedule_day_name": "d_SchoolEquipmentSchedule_02"
+        },
+        "w_SchoolEquipmentSchedule_03": {
+            "monday_schedule_day_name": "d_SchoolEquipmentSchedule_02",
+            "tuesday_schedule_day_name": "d_SchoolEquipmentSchedule_02",
+            "wednesday_schedule_day_name": "d_SchoolEquipmentSchedule_03",
+            "thursday_schedule_day_name": "d_SchoolEquipmentSchedule_03",
+            "friday_schedule_day_name": "d_SchoolEquipmentSchedule_03",
+            "saturday_schedule_day_name": "d_SchoolEquipmentSchedule_03",
+            "sunday_schedule_day_name": "d_SchoolEquipmentSchedule_02",
+            "holiday_schedule_day_name": "d_SchoolEquipmentSchedule_02",
+            "summerdesignday_schedule_day_name": "d_SchoolEquipmentSchedule_02",
+            "winterdesignday_schedule_day_name": "d_SchoolEquipmentSchedule_02",
+            "customday1_schedule_day_name": "d_SchoolEquipmentSchedule_02",
+            "customday2_schedule_day_name": "d_SchoolEquipmentSchedule_02"
+        },
+        "w_SchoolEquipmentSchedule_04": {
+            "monday_schedule_day_name": "d_SchoolEquipmentSchedule_02",
+            "tuesday_schedule_day_name": "d_SchoolEquipmentSchedule_03",
+            "wednesday_schedule_day_name": "d_SchoolEquipmentSchedule_03",
+            "thursday_schedule_day_name": "d_SchoolEquipmentSchedule_03",
+            "friday_schedule_day_name": "d_SchoolEquipmentSchedule_02",
+            "saturday_schedule_day_name": "d_SchoolEquipmentSchedule_03",
+            "sunday_schedule_day_name": "d_SchoolEquipmentSchedule_02",
+            "holiday_schedule_day_name": "d_SchoolEquipmentSchedule_02",
+            "summerdesignday_schedule_day_name": "d_SchoolEquipmentSchedule_02",
+            "winterdesignday_schedule_day_name": "d_SchoolEquipmentSchedule_02",
+            "customday1_schedule_day_name": "d_SchoolEquipmentSchedule_03",
+            "customday2_schedule_day_name": "d_SchoolEquipmentSchedule_02"
+        },
+        "w_SchoolEquipmentSchedule_05": {
+            "monday_schedule_day_name": "d_SchoolEquipmentSchedule_02",
+            "tuesday_schedule_day_name": "d_SchoolEquipmentSchedule_03",
+            "wednesday_schedule_day_name": "d_SchoolEquipmentSchedule_03",
+            "thursday_schedule_day_name": "d_SchoolEquipmentSchedule_03",
+            "friday_schedule_day_name": "d_SchoolEquipmentSchedule_03",
+            "saturday_schedule_day_name": "d_SchoolEquipmentSchedule_03",
+            "sunday_schedule_day_name": "d_SchoolEquipmentSchedule_00",
+            "holiday_schedule_day_name": "d_SchoolEquipmentSchedule_00",
+            "summerdesignday_schedule_day_name": "d_SchoolEquipmentSchedule_02",
+            "winterdesignday_schedule_day_name": "d_SchoolEquipmentSchedule_02",
+            "customday1_schedule_day_name": "d_SchoolEquipmentSchedule_03",
+            "customday2_schedule_day_name": "d_SchoolEquipmentSchedule_00"
+        },
+        "w_SchoolEquipmentSchedule_06": {
+            "monday_schedule_day_name": "d_SchoolEquipmentSchedule_02",
+            "tuesday_schedule_day_name": "d_SchoolEquipmentSchedule_03",
+            "wednesday_schedule_day_name": "d_SchoolEquipmentSchedule_03",
+            "thursday_schedule_day_name": "d_SchoolEquipmentSchedule_03",
+            "friday_schedule_day_name": "d_SchoolEquipmentSchedule_03",
+            "saturday_schedule_day_name": "d_SchoolEquipmentSchedule_03",
+            "sunday_schedule_day_name": "d_SchoolEquipmentSchedule_02",
+            "holiday_schedule_day_name": "d_SchoolEquipmentSchedule_02",
+            "summerdesignday_schedule_day_name": "d_SchoolEquipmentSchedule_02",
+            "winterdesignday_schedule_day_name": "d_SchoolEquipmentSchedule_02",
+            "customday1_schedule_day_name": "d_SchoolEquipmentSchedule_03",
+            "customday2_schedule_day_name": "d_SchoolEquipmentSchedule_02"
+        },
+        "w_SchoolLightsSchedule_00": {
+            "monday_schedule_day_name": "d_SchoolLightsSchedule_00",
+            "tuesday_schedule_day_name": "d_SchoolLightsSchedule_00",
+            "wednesday_schedule_day_name": "d_SchoolLightsSchedule_02",
+            "thursday_schedule_day_name": "d_SchoolLightsSchedule_02",
+            "friday_schedule_day_name": "d_SchoolLightsSchedule_02",
+            "saturday_schedule_day_name": "d_SchoolLightsSchedule_02",
+            "sunday_schedule_day_name": "d_SchoolLightsSchedule_00",
+            "holiday_schedule_day_name": "d_SchoolLightsSchedule_00",
+            "summerdesignday_schedule_day_name": "d_SchoolLightsSchedule_00",
+            "winterdesignday_schedule_day_name": "d_SchoolLightsSchedule_00",
+            "customday1_schedule_day_name": "d_SchoolLightsSchedule_00",
+            "customday2_schedule_day_name": "d_SchoolLightsSchedule_00"
+        },
+        "w_SchoolLightsSchedule_01": {
+            "monday_schedule_day_name": "d_SchoolLightsSchedule_00",
+            "tuesday_schedule_day_name": "d_SchoolLightsSchedule_01",
+            "wednesday_schedule_day_name": "d_SchoolLightsSchedule_00",
+            "thursday_schedule_day_name": "d_SchoolLightsSchedule_01",
+            "friday_schedule_day_name": "d_SchoolLightsSchedule_01",
+            "saturday_schedule_day_name": "d_SchoolLightsSchedule_01",
+            "sunday_schedule_day_name": "d_SchoolLightsSchedule_00",
+            "holiday_schedule_day_name": "d_SchoolLightsSchedule_00",
+            "summerdesignday_schedule_day_name": "d_SchoolLightsSchedule_00",
+            "winterdesignday_schedule_day_name": "d_SchoolLightsSchedule_00",
+            "customday1_schedule_day_name": "d_SchoolLightsSchedule_01",
+            "customday2_schedule_day_name": "d_SchoolLightsSchedule_00"
+        },
+        "w_SchoolLightsSchedule_02": {
+            "monday_schedule_day_name": "d_SchoolLightsSchedule_00",
+            "tuesday_schedule_day_name": "d_SchoolLightsSchedule_01",
+            "wednesday_schedule_day_name": "d_SchoolLightsSchedule_01",
+            "thursday_schedule_day_name": "d_SchoolLightsSchedule_01",
+            "friday_schedule_day_name": "d_SchoolLightsSchedule_01",
+            "saturday_schedule_day_name": "d_SchoolLightsSchedule_01",
+            "sunday_schedule_day_name": "d_SchoolLightsSchedule_00",
+            "holiday_schedule_day_name": "d_SchoolLightsSchedule_00",
+            "summerdesignday_schedule_day_name": "d_SchoolLightsSchedule_00",
+            "winterdesignday_schedule_day_name": "d_SchoolLightsSchedule_00",
+            "customday1_schedule_day_name": "d_SchoolLightsSchedule_01",
+            "customday2_schedule_day_name": "d_SchoolLightsSchedule_00"
+        },
+        "w_SchoolLightsSchedule_03": {
+            "monday_schedule_day_name": "d_SchoolLightsSchedule_00",
+            "tuesday_schedule_day_name": "d_SchoolLightsSchedule_02",
+            "wednesday_schedule_day_name": "d_SchoolLightsSchedule_02",
+            "thursday_schedule_day_name": "d_SchoolLightsSchedule_02",
+            "friday_schedule_day_name": "d_SchoolLightsSchedule_00",
+            "saturday_schedule_day_name": "d_SchoolLightsSchedule_02",
+            "sunday_schedule_day_name": "d_SchoolLightsSchedule_00",
+            "holiday_schedule_day_name": "d_SchoolLightsSchedule_00",
+            "summerdesignday_schedule_day_name": "d_SchoolLightsSchedule_00",
+            "winterdesignday_schedule_day_name": "d_SchoolLightsSchedule_00",
+            "customday1_schedule_day_name": "d_SchoolLightsSchedule_02",
+            "customday2_schedule_day_name": "d_SchoolLightsSchedule_00"
+        },
+        "w_SchoolLightsSchedule_04": {
+            "monday_schedule_day_name": "d_SchoolLightsSchedule_00",
+            "tuesday_schedule_day_name": "d_SchoolLightsSchedule_02",
+            "wednesday_schedule_day_name": "d_SchoolLightsSchedule_02",
+            "thursday_schedule_day_name": "d_SchoolLightsSchedule_02",
+            "friday_schedule_day_name": "d_SchoolLightsSchedule_02",
+            "saturday_schedule_day_name": "d_SchoolLightsSchedule_02",
+            "sunday_schedule_day_name": "d_SchoolLightsSchedule_00",
+            "holiday_schedule_day_name": "d_SchoolLightsSchedule_00",
+            "summerdesignday_schedule_day_name": "d_SchoolLightsSchedule_00",
+            "winterdesignday_schedule_day_name": "d_SchoolLightsSchedule_00",
+            "customday1_schedule_day_name": "d_SchoolLightsSchedule_02",
+            "customday2_schedule_day_name": "d_SchoolLightsSchedule_00"
+        },
+        "w_SchoolOccupancySchedule_00": {
+            "monday_schedule_day_name": "d_SchoolOccupancySchedule_00",
+            "tuesday_schedule_day_name": "d_SchoolOccupancySchedule_00",
+            "wednesday_schedule_day_name": "d_SchoolOccupancySchedule_02",
+            "thursday_schedule_day_name": "d_SchoolOccupancySchedule_02",
+            "friday_schedule_day_name": "d_SchoolOccupancySchedule_02",
+            "saturday_schedule_day_name": "d_SchoolOccupancySchedule_02",
+            "sunday_schedule_day_name": "d_SchoolOccupancySchedule_00",
+            "holiday_schedule_day_name": "d_SchoolOccupancySchedule_00",
+            "summerdesignday_schedule_day_name": "d_SchoolOccupancySchedule_00",
+            "winterdesignday_schedule_day_name": "d_SchoolOccupancySchedule_00",
+            "customday1_schedule_day_name": "d_SchoolOccupancySchedule_00",
+            "customday2_schedule_day_name": "d_SchoolOccupancySchedule_00"
+        },
+        "w_SchoolOccupancySchedule_01": {
+            "monday_schedule_day_name": "d_SchoolOccupancySchedule_00",
+            "tuesday_schedule_day_name": "d_SchoolOccupancySchedule_01",
+            "wednesday_schedule_day_name": "d_SchoolOccupancySchedule_00",
+            "thursday_schedule_day_name": "d_SchoolOccupancySchedule_01",
+            "friday_schedule_day_name": "d_SchoolOccupancySchedule_01",
+            "saturday_schedule_day_name": "d_SchoolOccupancySchedule_01",
+            "sunday_schedule_day_name": "d_SchoolOccupancySchedule_00",
+            "holiday_schedule_day_name": "d_SchoolOccupancySchedule_00",
+            "summerdesignday_schedule_day_name": "d_SchoolOccupancySchedule_00",
+            "winterdesignday_schedule_day_name": "d_SchoolOccupancySchedule_00",
+            "customday1_schedule_day_name": "d_SchoolOccupancySchedule_01",
+            "customday2_schedule_day_name": "d_SchoolOccupancySchedule_00"
+        },
+        "w_SchoolOccupancySchedule_02": {
+            "monday_schedule_day_name": "d_SchoolOccupancySchedule_00",
+            "tuesday_schedule_day_name": "d_SchoolOccupancySchedule_01",
+            "wednesday_schedule_day_name": "d_SchoolOccupancySchedule_01",
+            "thursday_schedule_day_name": "d_SchoolOccupancySchedule_01",
+            "friday_schedule_day_name": "d_SchoolOccupancySchedule_01",
+            "saturday_schedule_day_name": "d_SchoolOccupancySchedule_01",
+            "sunday_schedule_day_name": "d_SchoolOccupancySchedule_00",
+            "holiday_schedule_day_name": "d_SchoolOccupancySchedule_00",
+            "summerdesignday_schedule_day_name": "d_SchoolOccupancySchedule_00",
+            "winterdesignday_schedule_day_name": "d_SchoolOccupancySchedule_00",
+            "customday1_schedule_day_name": "d_SchoolOccupancySchedule_01",
+            "customday2_schedule_day_name": "d_SchoolOccupancySchedule_00"
+        },
+        "w_SchoolOccupancySchedule_03": {
+            "monday_schedule_day_name": "d_SchoolOccupancySchedule_00",
+            "tuesday_schedule_day_name": "d_SchoolOccupancySchedule_02",
+            "wednesday_schedule_day_name": "d_SchoolOccupancySchedule_02",
+            "thursday_schedule_day_name": "d_SchoolOccupancySchedule_02",
+            "friday_schedule_day_name": "d_SchoolOccupancySchedule_00",
+            "saturday_schedule_day_name": "d_SchoolOccupancySchedule_02",
+            "sunday_schedule_day_name": "d_SchoolOccupancySchedule_00",
+            "holiday_schedule_day_name": "d_SchoolOccupancySchedule_00",
+            "summerdesignday_schedule_day_name": "d_SchoolOccupancySchedule_00",
+            "winterdesignday_schedule_day_name": "d_SchoolOccupancySchedule_00",
+            "customday1_schedule_day_name": "d_SchoolOccupancySchedule_02",
+            "customday2_schedule_day_name": "d_SchoolOccupancySchedule_00"
+        },
+        "w_SchoolOccupancySchedule_04": {
+            "monday_schedule_day_name": "d_SchoolOccupancySchedule_00",
+            "tuesday_schedule_day_name": "d_SchoolOccupancySchedule_02",
+            "wednesday_schedule_day_name": "d_SchoolOccupancySchedule_02",
+            "thursday_schedule_day_name": "d_SchoolOccupancySchedule_02",
+            "friday_schedule_day_name": "d_SchoolOccupancySchedule_02",
+            "saturday_schedule_day_name": "d_SchoolOccupancySchedule_02",
+            "sunday_schedule_day_name": "d_SchoolOccupancySchedule_00",
+            "holiday_schedule_day_name": "d_SchoolOccupancySchedule_00",
+            "summerdesignday_schedule_day_name": "d_SchoolOccupancySchedule_00",
+            "winterdesignday_schedule_day_name": "d_SchoolOccupancySchedule_00",
+            "customday1_schedule_day_name": "d_SchoolOccupancySchedule_02",
+            "customday2_schedule_day_name": "d_SchoolOccupancySchedule_00"
+        },
+        "w_AptDHW_00": {
+            "monday_schedule_day_name": "d_AptDHW_00",
+            "tuesday_schedule_day_name": "d_AptDHW_00",
+            "wednesday_schedule_day_name": "d_AptDHW_01",
+            "thursday_schedule_day_name": "d_AptDHW_01",
+            "friday_schedule_day_name": "d_AptDHW_01",
+            "saturday_schedule_day_name": "d_AptDHW_01",
+            "sunday_schedule_day_name": "d_AptDHW_00",
+            "holiday_schedule_day_name": "d_AptDHW_00",
+            "summerdesignday_schedule_day_name": "d_AptDHW_00",
+            "winterdesignday_schedule_day_name": "d_AptDHW_00",
+            "customday1_schedule_day_name": "d_AptDHW_00",
+            "customday2_schedule_day_name": "d_AptDHW_00"
+        },
+        "w_AptDHW_01": {
+            "monday_schedule_day_name": "d_AptDHW_00",
+            "tuesday_schedule_day_name": "d_AptDHW_01",
+            "wednesday_schedule_day_name": "d_AptDHW_00",
+            "thursday_schedule_day_name": "d_AptDHW_01",
+            "friday_schedule_day_name": "d_AptDHW_01",
+            "saturday_schedule_day_name": "d_AptDHW_01",
+            "sunday_schedule_day_name": "d_AptDHW_00",
+            "holiday_schedule_day_name": "d_AptDHW_00",
+            "summerdesignday_schedule_day_name": "d_AptDHW_00",
+            "winterdesignday_schedule_day_name": "d_AptDHW_00",
+            "customday1_schedule_day_name": "d_AptDHW_01",
+            "customday2_schedule_day_name": "d_AptDHW_00"
+        },
+        "w_AptDHW_02": {
+            "monday_schedule_day_name": "d_AptDHW_00",
+            "tuesday_schedule_day_name": "d_AptDHW_01",
+            "wednesday_schedule_day_name": "d_AptDHW_01",
+            "thursday_schedule_day_name": "d_AptDHW_01",
+            "friday_schedule_day_name": "d_AptDHW_00",
+            "saturday_schedule_day_name": "d_AptDHW_01",
+            "sunday_schedule_day_name": "d_AptDHW_00",
+            "holiday_schedule_day_name": "d_AptDHW_00",
+            "summerdesignday_schedule_day_name": "d_AptDHW_00",
+            "winterdesignday_schedule_day_name": "d_AptDHW_00",
+            "customday1_schedule_day_name": "d_AptDHW_01",
+            "customday2_schedule_day_name": "d_AptDHW_00"
+        },
+        "w_AptDHW_03": {
+            "monday_schedule_day_name": "d_AptDHW_00",
+            "tuesday_schedule_day_name": "d_AptDHW_01",
+            "wednesday_schedule_day_name": "d_AptDHW_01",
+            "thursday_schedule_day_name": "d_AptDHW_01",
+            "friday_schedule_day_name": "d_AptDHW_01",
+            "saturday_schedule_day_name": "d_AptDHW_01",
+            "sunday_schedule_day_name": "d_AptDHW_00",
+            "holiday_schedule_day_name": "d_AptDHW_00",
+            "summerdesignday_schedule_day_name": "d_AptDHW_00",
+            "winterdesignday_schedule_day_name": "d_AptDHW_00",
+            "customday1_schedule_day_name": "d_AptDHW_01",
+            "customday2_schedule_day_name": "d_AptDHW_00"
         }
     },
     "Schedule:Year": {
@@ -293,6 +1241,839 @@
                     "schedule_week_name": "Dhw0",
                     "start_day": 1,
                     "start_month": 1
+                }
+            ]
+        },
+        "AptEquipmentSchedule": {
+            "schedule_type_limits_name": "Fraction",
+            "schedule_weeks": [
+                {
+                    "schedule_week_name": "w_AptEquipmentSchedule_03",
+                    "start_month": 1,
+                    "start_day": 1,
+                    "end_month": 1,
+                    "end_day": 14
+                },
+                {
+                    "schedule_week_name": "w_AptEquipmentSchedule_00",
+                    "start_month": 1,
+                    "start_day": 15,
+                    "end_month": 1,
+                    "end_day": 21
+                },
+                {
+                    "schedule_week_name": "w_AptEquipmentSchedule_03",
+                    "start_month": 1,
+                    "start_day": 22,
+                    "end_month": 2,
+                    "end_day": 18
+                },
+                {
+                    "schedule_week_name": "w_AptEquipmentSchedule_00",
+                    "start_month": 2,
+                    "start_day": 19,
+                    "end_month": 2,
+                    "end_day": 25
+                },
+                {
+                    "schedule_week_name": "w_AptEquipmentSchedule_03",
+                    "start_month": 2,
+                    "start_day": 26,
+                    "end_month": 5,
+                    "end_day": 27
+                },
+                {
+                    "schedule_week_name": "w_AptEquipmentSchedule_00",
+                    "start_month": 5,
+                    "start_day": 28,
+                    "end_month": 6,
+                    "end_day": 3
+                },
+                {
+                    "schedule_week_name": "w_AptEquipmentSchedule_03",
+                    "start_month": 6,
+                    "start_day": 4,
+                    "end_month": 7,
+                    "end_day": 1
+                },
+                {
+                    "schedule_week_name": "w_AptEquipmentSchedule_01",
+                    "start_month": 7,
+                    "start_day": 2,
+                    "end_month": 7,
+                    "end_day": 8
+                },
+                {
+                    "schedule_week_name": "w_AptEquipmentSchedule_03",
+                    "start_month": 7,
+                    "start_day": 9,
+                    "end_month": 9,
+                    "end_day": 2
+                },
+                {
+                    "schedule_week_name": "w_AptEquipmentSchedule_00",
+                    "start_month": 9,
+                    "start_day": 3,
+                    "end_month": 9,
+                    "end_day": 9
+                },
+                {
+                    "schedule_week_name": "w_AptEquipmentSchedule_03",
+                    "start_month": 9,
+                    "start_day": 10,
+                    "end_month": 10,
+                    "end_day": 7
+                },
+                {
+                    "schedule_week_name": "w_AptEquipmentSchedule_00",
+                    "start_month": 10,
+                    "start_day": 8,
+                    "end_month": 10,
+                    "end_day": 14
+                },
+                {
+                    "schedule_week_name": "w_AptEquipmentSchedule_03",
+                    "start_month": 10,
+                    "start_day": 15,
+                    "end_month": 11,
+                    "end_day": 18
+                },
+                {
+                    "schedule_week_name": "w_AptEquipmentSchedule_02",
+                    "start_month": 11,
+                    "start_day": 19,
+                    "end_month": 11,
+                    "end_day": 25
+                },
+                {
+                    "schedule_week_name": "w_AptEquipmentSchedule_03",
+                    "start_month": 11,
+                    "start_day": 26,
+                    "end_month": 12,
+                    "end_day": 23
+                },
+                {
+                    "schedule_week_name": "w_AptEquipmentSchedule_00",
+                    "start_month": 12,
+                    "start_day": 24,
+                    "end_month": 12,
+                    "end_day": 31
+                }
+            ]
+        },
+        "AptLightsSchedule": {
+            "schedule_type_limits_name": "Fraction",
+            "schedule_weeks": [
+                {
+                    "schedule_week_name": "w_AptLightsSchedule_03",
+                    "start_month": 1,
+                    "start_day": 1,
+                    "end_month": 1,
+                    "end_day": 14
+                },
+                {
+                    "schedule_week_name": "w_AptLightsSchedule_00",
+                    "start_month": 1,
+                    "start_day": 15,
+                    "end_month": 1,
+                    "end_day": 21
+                },
+                {
+                    "schedule_week_name": "w_AptLightsSchedule_03",
+                    "start_month": 1,
+                    "start_day": 22,
+                    "end_month": 2,
+                    "end_day": 18
+                },
+                {
+                    "schedule_week_name": "w_AptLightsSchedule_00",
+                    "start_month": 2,
+                    "start_day": 19,
+                    "end_month": 2,
+                    "end_day": 25
+                },
+                {
+                    "schedule_week_name": "w_AptLightsSchedule_03",
+                    "start_month": 2,
+                    "start_day": 26,
+                    "end_month": 5,
+                    "end_day": 27
+                },
+                {
+                    "schedule_week_name": "w_AptLightsSchedule_00",
+                    "start_month": 5,
+                    "start_day": 28,
+                    "end_month": 6,
+                    "end_day": 3
+                },
+                {
+                    "schedule_week_name": "w_AptLightsSchedule_03",
+                    "start_month": 6,
+                    "start_day": 4,
+                    "end_month": 7,
+                    "end_day": 1
+                },
+                {
+                    "schedule_week_name": "w_AptLightsSchedule_01",
+                    "start_month": 7,
+                    "start_day": 2,
+                    "end_month": 7,
+                    "end_day": 8
+                },
+                {
+                    "schedule_week_name": "w_AptLightsSchedule_03",
+                    "start_month": 7,
+                    "start_day": 9,
+                    "end_month": 9,
+                    "end_day": 2
+                },
+                {
+                    "schedule_week_name": "w_AptLightsSchedule_00",
+                    "start_month": 9,
+                    "start_day": 3,
+                    "end_month": 9,
+                    "end_day": 9
+                },
+                {
+                    "schedule_week_name": "w_AptLightsSchedule_03",
+                    "start_month": 9,
+                    "start_day": 10,
+                    "end_month": 10,
+                    "end_day": 7
+                },
+                {
+                    "schedule_week_name": "w_AptLightsSchedule_00",
+                    "start_month": 10,
+                    "start_day": 8,
+                    "end_month": 10,
+                    "end_day": 14
+                },
+                {
+                    "schedule_week_name": "w_AptLightsSchedule_03",
+                    "start_month": 10,
+                    "start_day": 15,
+                    "end_month": 11,
+                    "end_day": 18
+                },
+                {
+                    "schedule_week_name": "w_AptLightsSchedule_02",
+                    "start_month": 11,
+                    "start_day": 19,
+                    "end_month": 11,
+                    "end_day": 25
+                },
+                {
+                    "schedule_week_name": "w_AptLightsSchedule_03",
+                    "start_month": 11,
+                    "start_day": 26,
+                    "end_month": 12,
+                    "end_day": 23
+                },
+                {
+                    "schedule_week_name": "w_AptLightsSchedule_00",
+                    "start_month": 12,
+                    "start_day": 24,
+                    "end_month": 12,
+                    "end_day": 31
+                }
+            ]
+        },
+        "AptOccupancySchedule": {
+            "schedule_type_limits_name": "Fraction",
+            "schedule_weeks": [
+                {
+                    "schedule_week_name": "w_AptOccupancySchedule_03",
+                    "start_month": 1,
+                    "start_day": 1,
+                    "end_month": 1,
+                    "end_day": 14
+                },
+                {
+                    "schedule_week_name": "w_AptOccupancySchedule_00",
+                    "start_month": 1,
+                    "start_day": 15,
+                    "end_month": 1,
+                    "end_day": 21
+                },
+                {
+                    "schedule_week_name": "w_AptOccupancySchedule_03",
+                    "start_month": 1,
+                    "start_day": 22,
+                    "end_month": 2,
+                    "end_day": 18
+                },
+                {
+                    "schedule_week_name": "w_AptOccupancySchedule_00",
+                    "start_month": 2,
+                    "start_day": 19,
+                    "end_month": 2,
+                    "end_day": 25
+                },
+                {
+                    "schedule_week_name": "w_AptOccupancySchedule_03",
+                    "start_month": 2,
+                    "start_day": 26,
+                    "end_month": 5,
+                    "end_day": 27
+                },
+                {
+                    "schedule_week_name": "w_AptOccupancySchedule_00",
+                    "start_month": 5,
+                    "start_day": 28,
+                    "end_month": 6,
+                    "end_day": 3
+                },
+                {
+                    "schedule_week_name": "w_AptOccupancySchedule_03",
+                    "start_month": 6,
+                    "start_day": 4,
+                    "end_month": 7,
+                    "end_day": 1
+                },
+                {
+                    "schedule_week_name": "w_AptOccupancySchedule_01",
+                    "start_month": 7,
+                    "start_day": 2,
+                    "end_month": 7,
+                    "end_day": 8
+                },
+                {
+                    "schedule_week_name": "w_AptOccupancySchedule_03",
+                    "start_month": 7,
+                    "start_day": 9,
+                    "end_month": 9,
+                    "end_day": 2
+                },
+                {
+                    "schedule_week_name": "w_AptOccupancySchedule_00",
+                    "start_month": 9,
+                    "start_day": 3,
+                    "end_month": 9,
+                    "end_day": 9
+                },
+                {
+                    "schedule_week_name": "w_AptOccupancySchedule_03",
+                    "start_month": 9,
+                    "start_day": 10,
+                    "end_month": 10,
+                    "end_day": 7
+                },
+                {
+                    "schedule_week_name": "w_AptOccupancySchedule_00",
+                    "start_month": 10,
+                    "start_day": 8,
+                    "end_month": 10,
+                    "end_day": 14
+                },
+                {
+                    "schedule_week_name": "w_AptOccupancySchedule_03",
+                    "start_month": 10,
+                    "start_day": 15,
+                    "end_month": 11,
+                    "end_day": 18
+                },
+                {
+                    "schedule_week_name": "w_AptOccupancySchedule_02",
+                    "start_month": 11,
+                    "start_day": 19,
+                    "end_month": 11,
+                    "end_day": 25
+                },
+                {
+                    "schedule_week_name": "w_AptOccupancySchedule_03",
+                    "start_month": 11,
+                    "start_day": 26,
+                    "end_month": 12,
+                    "end_day": 23
+                },
+                {
+                    "schedule_week_name": "w_AptOccupancySchedule_00",
+                    "start_month": 12,
+                    "start_day": 24,
+                    "end_month": 12,
+                    "end_day": 31
+                }
+            ]
+        },
+        "SchoolEquipmentSchedule": {
+            "schedule_type_limits_name": "Fraction",
+            "schedule_weeks": [
+                {
+                    "schedule_week_name": "w_SchoolEquipmentSchedule_06",
+                    "start_month": 1,
+                    "start_day": 1,
+                    "end_month": 1,
+                    "end_day": 14
+                },
+                {
+                    "schedule_week_name": "w_SchoolEquipmentSchedule_03",
+                    "start_month": 1,
+                    "start_day": 15,
+                    "end_month": 1,
+                    "end_day": 21
+                },
+                {
+                    "schedule_week_name": "w_SchoolEquipmentSchedule_06",
+                    "start_month": 1,
+                    "start_day": 22,
+                    "end_month": 2,
+                    "end_day": 18
+                },
+                {
+                    "schedule_week_name": "w_SchoolEquipmentSchedule_03",
+                    "start_month": 2,
+                    "start_day": 19,
+                    "end_month": 2,
+                    "end_day": 25
+                },
+                {
+                    "schedule_week_name": "w_SchoolEquipmentSchedule_06",
+                    "start_month": 2,
+                    "start_day": 26,
+                    "end_month": 5,
+                    "end_day": 27
+                },
+                {
+                    "schedule_week_name": "w_SchoolEquipmentSchedule_03",
+                    "start_month": 5,
+                    "start_day": 28,
+                    "end_month": 6,
+                    "end_day": 3
+                },
+                {
+                    "schedule_week_name": "w_SchoolEquipmentSchedule_06",
+                    "start_month": 6,
+                    "start_day": 4,
+                    "end_month": 6,
+                    "end_day": 24
+                },
+                {
+                    "schedule_week_name": "w_SchoolEquipmentSchedule_05",
+                    "start_month": 6,
+                    "start_day": 25,
+                    "end_month": 7,
+                    "end_day": 1
+                },
+                {
+                    "schedule_week_name": "w_SchoolEquipmentSchedule_00",
+                    "start_month": 7,
+                    "start_day": 2,
+                    "end_month": 7,
+                    "end_day": 8
+                },
+                {
+                    "schedule_week_name": "w_SchoolEquipmentSchedule_01",
+                    "start_month": 7,
+                    "start_day": 9,
+                    "end_month": 8,
+                    "end_day": 26
+                },
+                {
+                    "schedule_week_name": "w_SchoolEquipmentSchedule_02",
+                    "start_month": 8,
+                    "start_day": 27,
+                    "end_month": 9,
+                    "end_day": 2
+                },
+                {
+                    "schedule_week_name": "w_SchoolEquipmentSchedule_03",
+                    "start_month": 9,
+                    "start_day": 3,
+                    "end_month": 9,
+                    "end_day": 9
+                },
+                {
+                    "schedule_week_name": "w_SchoolEquipmentSchedule_06",
+                    "start_month": 9,
+                    "start_day": 10,
+                    "end_month": 10,
+                    "end_day": 7
+                },
+                {
+                    "schedule_week_name": "w_SchoolEquipmentSchedule_03",
+                    "start_month": 10,
+                    "start_day": 8,
+                    "end_month": 10,
+                    "end_day": 14
+                },
+                {
+                    "schedule_week_name": "w_SchoolEquipmentSchedule_06",
+                    "start_month": 10,
+                    "start_day": 15,
+                    "end_month": 11,
+                    "end_day": 18
+                },
+                {
+                    "schedule_week_name": "w_SchoolEquipmentSchedule_04",
+                    "start_month": 11,
+                    "start_day": 19,
+                    "end_month": 11,
+                    "end_day": 25
+                },
+                {
+                    "schedule_week_name": "w_SchoolEquipmentSchedule_06",
+                    "start_month": 11,
+                    "start_day": 26,
+                    "end_month": 12,
+                    "end_day": 23
+                },
+                {
+                    "schedule_week_name": "w_SchoolEquipmentSchedule_03",
+                    "start_month": 12,
+                    "start_day": 24,
+                    "end_month": 12,
+                    "end_day": 31
+                }
+            ]
+        },
+        "SchoolLightsSchedule": {
+            "schedule_type_limits_name": "Fraction",
+            "schedule_weeks": [
+                {
+                    "schedule_week_name": "w_SchoolLightsSchedule_04",
+                    "start_month": 1,
+                    "start_day": 1,
+                    "end_month": 1,
+                    "end_day": 14
+                },
+                {
+                    "schedule_week_name": "w_SchoolLightsSchedule_00",
+                    "start_month": 1,
+                    "start_day": 15,
+                    "end_month": 1,
+                    "end_day": 21
+                },
+                {
+                    "schedule_week_name": "w_SchoolLightsSchedule_04",
+                    "start_month": 1,
+                    "start_day": 22,
+                    "end_month": 2,
+                    "end_day": 18
+                },
+                {
+                    "schedule_week_name": "w_SchoolLightsSchedule_00",
+                    "start_month": 2,
+                    "start_day": 19,
+                    "end_month": 2,
+                    "end_day": 25
+                },
+                {
+                    "schedule_week_name": "w_SchoolLightsSchedule_04",
+                    "start_month": 2,
+                    "start_day": 26,
+                    "end_month": 5,
+                    "end_day": 27
+                },
+                {
+                    "schedule_week_name": "w_SchoolLightsSchedule_00",
+                    "start_month": 5,
+                    "start_day": 28,
+                    "end_month": 6,
+                    "end_day": 3
+                },
+                {
+                    "schedule_week_name": "w_SchoolLightsSchedule_04",
+                    "start_month": 6,
+                    "start_day": 4,
+                    "end_month": 7,
+                    "end_day": 1
+                },
+                {
+                    "schedule_week_name": "w_SchoolLightsSchedule_01",
+                    "start_month": 7,
+                    "start_day": 2,
+                    "end_month": 7,
+                    "end_day": 8
+                },
+                {
+                    "schedule_week_name": "w_SchoolLightsSchedule_02",
+                    "start_month": 7,
+                    "start_day": 9,
+                    "end_month": 9,
+                    "end_day": 2
+                },
+                {
+                    "schedule_week_name": "w_SchoolLightsSchedule_00",
+                    "start_month": 9,
+                    "start_day": 3,
+                    "end_month": 9,
+                    "end_day": 9
+                },
+                {
+                    "schedule_week_name": "w_SchoolLightsSchedule_04",
+                    "start_month": 9,
+                    "start_day": 10,
+                    "end_month": 10,
+                    "end_day": 7
+                },
+                {
+                    "schedule_week_name": "w_SchoolLightsSchedule_00",
+                    "start_month": 10,
+                    "start_day": 8,
+                    "end_month": 10,
+                    "end_day": 14
+                },
+                {
+                    "schedule_week_name": "w_SchoolLightsSchedule_04",
+                    "start_month": 10,
+                    "start_day": 15,
+                    "end_month": 11,
+                    "end_day": 18
+                },
+                {
+                    "schedule_week_name": "w_SchoolLightsSchedule_03",
+                    "start_month": 11,
+                    "start_day": 19,
+                    "end_month": 11,
+                    "end_day": 25
+                },
+                {
+                    "schedule_week_name": "w_SchoolLightsSchedule_04",
+                    "start_month": 11,
+                    "start_day": 26,
+                    "end_month": 12,
+                    "end_day": 23
+                },
+                {
+                    "schedule_week_name": "w_SchoolLightsSchedule_00",
+                    "start_month": 12,
+                    "start_day": 24,
+                    "end_month": 12,
+                    "end_day": 31
+                }
+            ]
+        },
+        "SchoolOccupancySchedule": {
+            "schedule_type_limits_name": "Fraction",
+            "schedule_weeks": [
+                {
+                    "schedule_week_name": "w_SchoolOccupancySchedule_04",
+                    "start_month": 1,
+                    "start_day": 1,
+                    "end_month": 1,
+                    "end_day": 14
+                },
+                {
+                    "schedule_week_name": "w_SchoolOccupancySchedule_00",
+                    "start_month": 1,
+                    "start_day": 15,
+                    "end_month": 1,
+                    "end_day": 21
+                },
+                {
+                    "schedule_week_name": "w_SchoolOccupancySchedule_04",
+                    "start_month": 1,
+                    "start_day": 22,
+                    "end_month": 2,
+                    "end_day": 18
+                },
+                {
+                    "schedule_week_name": "w_SchoolOccupancySchedule_00",
+                    "start_month": 2,
+                    "start_day": 19,
+                    "end_month": 2,
+                    "end_day": 25
+                },
+                {
+                    "schedule_week_name": "w_SchoolOccupancySchedule_04",
+                    "start_month": 2,
+                    "start_day": 26,
+                    "end_month": 5,
+                    "end_day": 27
+                },
+                {
+                    "schedule_week_name": "w_SchoolOccupancySchedule_00",
+                    "start_month": 5,
+                    "start_day": 28,
+                    "end_month": 6,
+                    "end_day": 3
+                },
+                {
+                    "schedule_week_name": "w_SchoolOccupancySchedule_04",
+                    "start_month": 6,
+                    "start_day": 4,
+                    "end_month": 7,
+                    "end_day": 1
+                },
+                {
+                    "schedule_week_name": "w_SchoolOccupancySchedule_01",
+                    "start_month": 7,
+                    "start_day": 2,
+                    "end_month": 7,
+                    "end_day": 8
+                },
+                {
+                    "schedule_week_name": "w_SchoolOccupancySchedule_02",
+                    "start_month": 7,
+                    "start_day": 9,
+                    "end_month": 9,
+                    "end_day": 2
+                },
+                {
+                    "schedule_week_name": "w_SchoolOccupancySchedule_00",
+                    "start_month": 9,
+                    "start_day": 3,
+                    "end_month": 9,
+                    "end_day": 9
+                },
+                {
+                    "schedule_week_name": "w_SchoolOccupancySchedule_04",
+                    "start_month": 9,
+                    "start_day": 10,
+                    "end_month": 10,
+                    "end_day": 7
+                },
+                {
+                    "schedule_week_name": "w_SchoolOccupancySchedule_00",
+                    "start_month": 10,
+                    "start_day": 8,
+                    "end_month": 10,
+                    "end_day": 14
+                },
+                {
+                    "schedule_week_name": "w_SchoolOccupancySchedule_04",
+                    "start_month": 10,
+                    "start_day": 15,
+                    "end_month": 11,
+                    "end_day": 18
+                },
+                {
+                    "schedule_week_name": "w_SchoolOccupancySchedule_03",
+                    "start_month": 11,
+                    "start_day": 19,
+                    "end_month": 11,
+                    "end_day": 25
+                },
+                {
+                    "schedule_week_name": "w_SchoolOccupancySchedule_04",
+                    "start_month": 11,
+                    "start_day": 26,
+                    "end_month": 12,
+                    "end_day": 23
+                },
+                {
+                    "schedule_week_name": "w_SchoolOccupancySchedule_00",
+                    "start_month": 12,
+                    "start_day": 24,
+                    "end_month": 12,
+                    "end_day": 31
+                }
+            ]
+        },
+        "AptDHW": {
+            "schedule_type_limits_name": "Fraction",
+            "schedule_weeks": [
+                {
+                    "schedule_week_name": "w_AptDHW_03",
+                    "start_month": 1,
+                    "start_day": 1,
+                    "end_month": 1,
+                    "end_day": 14
+                },
+                {
+                    "schedule_week_name": "w_AptDHW_00",
+                    "start_month": 1,
+                    "start_day": 15,
+                    "end_month": 1,
+                    "end_day": 21
+                },
+                {
+                    "schedule_week_name": "w_AptDHW_03",
+                    "start_month": 1,
+                    "start_day": 22,
+                    "end_month": 2,
+                    "end_day": 18
+                },
+                {
+                    "schedule_week_name": "w_AptDHW_00",
+                    "start_month": 2,
+                    "start_day": 19,
+                    "end_month": 2,
+                    "end_day": 25
+                },
+                {
+                    "schedule_week_name": "w_AptDHW_03",
+                    "start_month": 2,
+                    "start_day": 26,
+                    "end_month": 5,
+                    "end_day": 27
+                },
+                {
+                    "schedule_week_name": "w_AptDHW_00",
+                    "start_month": 5,
+                    "start_day": 28,
+                    "end_month": 6,
+                    "end_day": 3
+                },
+                {
+                    "schedule_week_name": "w_AptDHW_03",
+                    "start_month": 6,
+                    "start_day": 4,
+                    "end_month": 7,
+                    "end_day": 1
+                },
+                {
+                    "schedule_week_name": "w_AptDHW_01",
+                    "start_month": 7,
+                    "start_day": 2,
+                    "end_month": 7,
+                    "end_day": 8
+                },
+                {
+                    "schedule_week_name": "w_AptDHW_03",
+                    "start_month": 7,
+                    "start_day": 9,
+                    "end_month": 9,
+                    "end_day": 2
+                },
+                {
+                    "schedule_week_name": "w_AptDHW_00",
+                    "start_month": 9,
+                    "start_day": 3,
+                    "end_month": 9,
+                    "end_day": 9
+                },
+                {
+                    "schedule_week_name": "w_AptDHW_03",
+                    "start_month": 9,
+                    "start_day": 10,
+                    "end_month": 10,
+                    "end_day": 7
+                },
+                {
+                    "schedule_week_name": "w_AptDHW_00",
+                    "start_month": 10,
+                    "start_day": 8,
+                    "end_month": 10,
+                    "end_day": 14
+                },
+                {
+                    "schedule_week_name": "w_AptDHW_03",
+                    "start_month": 10,
+                    "start_day": 15,
+                    "end_month": 11,
+                    "end_day": 18
+                },
+                {
+                    "schedule_week_name": "w_AptDHW_02",
+                    "start_month": 11,
+                    "start_day": 19,
+                    "end_month": 11,
+                    "end_day": 25
+                },
+                {
+                    "schedule_week_name": "w_AptDHW_03",
+                    "start_month": 11,
+                    "start_day": 26,
+                    "end_month": 12,
+                    "end_day": 23
+                },
+                {
+                    "schedule_week_name": "w_AptDHW_00",
+                    "start_month": 12,
+                    "start_day": 24,
+                    "end_month": 12,
+                    "end_day": 31
                 }
             ]
         }

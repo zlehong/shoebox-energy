@@ -34,14 +34,6 @@ selected_outputs = [
     "Water Use Equipment Heating Energy"
     ]
 
-selected_outputs = [
-    "Zone Lights Electricity Energy",
-    "Electric Equipment Electricity Energy",
-    "Zone Ideal Loads Supply Air Total Heating Energy",
-    "Zone Ideal Loads Supply Air Total Cooling Energy",
-    "Water Use Equipment Heating Energy"
-    ]
-
 class SimulateCluster:
     def __init__(
             self,
@@ -122,7 +114,8 @@ class SimulateCluster:
                 results_df.loc[:, :] = sb_results.groupby(level=1, axis=1).sum() + results_df
             except Exception as e:
                 logger.error(f"Problem with shoebox {row.ShoeboxPath}")
-                logger.error(e)
+                return (building_id, "ERROR")
+                # logger.error(e)
                 # raise e
                 # results_df.loc[:, :] += new
         norm_cols = [x+"_norm" for x in results_df.columns]
