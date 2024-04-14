@@ -273,11 +273,12 @@ class EpJsonIDF:
             del zone[bottomlevel_key]
     
     def update_schedules(self, schedules_dict):
-        #TODO check if already exists in other annual schedules
-        annual_sched_types = ["Schedule:Year", "Schedule:Constant"]
+        annual_sched_types = ["Schedule:Year", "Schedule:Constant", "Schedule:Compact"]
         for key, dat in schedules_dict.items():
-            assert key in self.epjson.keys()
-            self.epjson[key].update(dat)
+            if key not in self.epjson.keys():
+                self.epjson[key] = dat
+            else:
+                self.epjson[key].update(dat)
             if key in annual_sched_types:
                 annual_sched_types.remove(key)
                 # Delete any other schedules that exist 
@@ -288,17 +289,26 @@ class EpJsonIDF:
                         del self.epjson[annual_sched_types[0]][sched_name]
 
     def save_idf(self, name=None, suffix=None, output_path=None):
+        current_name = Path(self.epjson_path).name
+        # base = Path(self.epjson_path).parent
+
         if output_path is None:
             output_path = self.output_directory
+        print(output_path)
+        print(current_name)
         if name:
-            path = self.output_directory / name + ".epjson"
+            if ".epjson" not in name:
+                name = name + ".epjson"
+            path = str(output_path) +"/"+ name
             self.save_as(path)
+
         elif suffix:
-            path = str(self.epjson_path)[:-7] + suffix + ".epjson"
+            path = str(output_path) +"/"+ str(current_name)[:-7] + suffix + ".epjson"
             self.save_as(path)
         else:
-            path = self.epjson_path
-            self.save()
+            path = str(output_path)+"/"+str(current_name)
+            self.save_as(path)
+
         logger.info(f"Building idf for {path}")
 
         idf_path = self.convert(path, self.eplus_location, output_path, file_type="idf")
