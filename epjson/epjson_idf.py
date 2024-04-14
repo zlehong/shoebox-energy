@@ -164,7 +164,7 @@ class EpJsonIDF:
         return idfs
     
     @classmethod
-    def run(cls, idf_path, eplus_location, epw, verbose=False):
+    def run(cls, idf_path, eplus_location, epw, verbose=True):
         # Define the command and its arguments
         out_dir = Path(idf_path).parent
         cmd = eplus_location / f"energyplus{'.exe' if os.name == 'nt' else ''}"
@@ -274,9 +274,18 @@ class EpJsonIDF:
     
     def update_schedules(self, schedules_dict):
         #TODO check if already exists in other annual schedules
+        annual_sched_types = ["Schedule:Year", "Schedule:Constant"]
         for key, dat in schedules_dict.items():
             assert key in self.epjson.keys()
             self.epjson[key].update(dat)
+            if key in annual_sched_types:
+                annual_sched_types.remove(key)
+                # Delete any other schedules that exist 
+                # with same name in other yearly type
+                for sched_name in dat.keys():
+                    if sched_name in self.epjson[annual_sched_types[0]].keys():
+                        logger.warning(f"Schdeule {sched_name} of type {annual_sched_types[0]} will be overridden.")
+                        del self.epjson[annual_sched_types[0]][sched_name]
 
     def save_idf(self, name=None, suffix=None, output_path=None):
         if output_path is None:

@@ -28,7 +28,7 @@ umi_weight_map = {
 
 selected_outputs = [
     "Zone Lights Electricity Energy",
-    "Zone Electric Equipment Electricity Energy",
+    "Electric Equipment Electricity Energy",
     "Zone Ideal Loads Supply Air Total Heating Energy",
     "Zone Ideal Loads Supply Air Total Cooling Energy",
     "Water Use Equipment Heating Energy"

@@ -23,6 +23,16 @@
             "hourly_value"
         ]
     },
+    "HeatingSchedule": [
+        "ThermostatSetpoint:DualSetpoint",
+        "Dual Setpoint - Zone %ZONE%",
+        "heating_setpoint_temperature_schedule_name"
+    ],
+    "CoolingSchedule": [
+        "ThermostatSetpoint:DualSetpoint",
+        "Dual Setpoint - Zone %ZONE%",
+        "cooling_setpoint_temperature_schedule_name"
+    ],
     "PeopleDensity": [
         "People",
         "People %ZONE%",
