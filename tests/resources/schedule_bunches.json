@@ -990,174 +990,6 @@
             "wednesday_schedule_day_name": "Boston_Off_D_Dhw_WD",
             "winterdesignday_schedule_day_name": "Boston_Off_D_Dhw_WD"
         },
-        "w_AptEquipmentSchedule_00": {
-            "monday_schedule_day_name": "d_AptEquipmentSchedule_00",
-            "tuesday_schedule_day_name": "d_AptEquipmentSchedule_00",
-            "wednesday_schedule_day_name": "d_AptEquipmentSchedule_01",
-            "thursday_schedule_day_name": "d_AptEquipmentSchedule_01",
-            "friday_schedule_day_name": "d_AptEquipmentSchedule_01",
-            "saturday_schedule_day_name": "d_AptEquipmentSchedule_01",
-            "sunday_schedule_day_name": "d_AptEquipmentSchedule_00",
-            "holiday_schedule_day_name": "d_AptEquipmentSchedule_00",
-            "summerdesignday_schedule_day_name": "d_AptEquipmentSchedule_00",
-            "winterdesignday_schedule_day_name": "d_AptEquipmentSchedule_00",
-            "customday1_schedule_day_name": "d_AptEquipmentSchedule_00",
-            "customday2_schedule_day_name": "d_AptEquipmentSchedule_00"
-        },
-        "w_AptEquipmentSchedule_01": {
-            "monday_schedule_day_name": "d_AptEquipmentSchedule_00",
-            "tuesday_schedule_day_name": "d_AptEquipmentSchedule_01",
-            "wednesday_schedule_day_name": "d_AptEquipmentSchedule_00",
-            "thursday_schedule_day_name": "d_AptEquipmentSchedule_01",
-            "friday_schedule_day_name": "d_AptEquipmentSchedule_01",
-            "saturday_schedule_day_name": "d_AptEquipmentSchedule_01",
-            "sunday_schedule_day_name": "d_AptEquipmentSchedule_00",
-            "holiday_schedule_day_name": "d_AptEquipmentSchedule_00",
-            "summerdesignday_schedule_day_name": "d_AptEquipmentSchedule_00",
-            "winterdesignday_schedule_day_name": "d_AptEquipmentSchedule_00",
-            "customday1_schedule_day_name": "d_AptEquipmentSchedule_01",
-            "customday2_schedule_day_name": "d_AptEquipmentSchedule_00"
-        },
-        "w_AptEquipmentSchedule_02": {
-            "monday_schedule_day_name": "d_AptEquipmentSchedule_00",
-            "tuesday_schedule_day_name": "d_AptEquipmentSchedule_01",
-            "wednesday_schedule_day_name": "d_AptEquipmentSchedule_01",
-            "thursday_schedule_day_name": "d_AptEquipmentSchedule_01",
-            "friday_schedule_day_name": "d_AptEquipmentSchedule_00",
-            "saturday_schedule_day_name": "d_AptEquipmentSchedule_01",
-            "sunday_schedule_day_name": "d_AptEquipmentSchedule_00",
-            "holiday_schedule_day_name": "d_AptEquipmentSchedule_00",
-            "summerdesignday_schedule_day_name": "d_AptEquipmentSchedule_00",
-            "winterdesignday_schedule_day_name": "d_AptEquipmentSchedule_00",
-            "customday1_schedule_day_name": "d_AptEquipmentSchedule_01",
-            "customday2_schedule_day_name": "d_AptEquipmentSchedule_00"
-        },
-        "w_AptEquipmentSchedule_03": {
-            "monday_schedule_day_name": "d_AptEquipmentSchedule_00",
-            "tuesday_schedule_day_name": "d_AptEquipmentSchedule_01",
-            "wednesday_schedule_day_name": "d_AptEquipmentSchedule_01",
-            "thursday_schedule_day_name": "d_AptEquipmentSchedule_01",
-            "friday_schedule_day_name": "d_AptEquipmentSchedule_01",
-            "saturday_schedule_day_name": "d_AptEquipmentSchedule_01",
-            "sunday_schedule_day_name": "d_AptEquipmentSchedule_00",
-            "holiday_schedule_day_name": "d_AptEquipmentSchedule_00",
-            "summerdesignday_schedule_day_name": "d_AptEquipmentSchedule_00",
-            "winterdesignday_schedule_day_name": "d_AptEquipmentSchedule_00",
-            "customday1_schedule_day_name": "d_AptEquipmentSchedule_01",
-            "customday2_schedule_day_name": "d_AptEquipmentSchedule_00"
-        },
-        "w_AptLightsSchedule_00": {
-            "monday_schedule_day_name": "d_AptLightsSchedule_00",
-            "tuesday_schedule_day_name": "d_AptLightsSchedule_00",
-            "wednesday_schedule_day_name": "d_AptLightsSchedule_01",
-            "thursday_schedule_day_name": "d_AptLightsSchedule_01",
-            "friday_schedule_day_name": "d_AptLightsSchedule_01",
-            "saturday_schedule_day_name": "d_AptLightsSchedule_01",
-            "sunday_schedule_day_name": "d_AptLightsSchedule_00",
-            "holiday_schedule_day_name": "d_AptLightsSchedule_00",
-            "summerdesignday_schedule_day_name": "d_AptLightsSchedule_00",
-            "winterdesignday_schedule_day_name": "d_AptLightsSchedule_00",
-            "customday1_schedule_day_name": "d_AptLightsSchedule_00",
-            "customday2_schedule_day_name": "d_AptLightsSchedule_00"
-        },
-        "w_AptLightsSchedule_01": {
-            "monday_schedule_day_name": "d_AptLightsSchedule_00",
-            "tuesday_schedule_day_name": "d_AptLightsSchedule_01",
-            "wednesday_schedule_day_name": "d_AptLightsSchedule_00",
-            "thursday_schedule_day_name": "d_AptLightsSchedule_01",
-            "friday_schedule_day_name": "d_AptLightsSchedule_01",
-            "saturday_schedule_day_name": "d_AptLightsSchedule_01",
-            "sunday_schedule_day_name": "d_AptLightsSchedule_00",
-            "holiday_schedule_day_name": "d_AptLightsSchedule_00",
-            "summerdesignday_schedule_day_name": "d_AptLightsSchedule_00",
-            "winterdesignday_schedule_day_name": "d_AptLightsSchedule_00",
-            "customday1_schedule_day_name": "d_AptLightsSchedule_01",
-            "customday2_schedule_day_name": "d_AptLightsSchedule_00"
-        },
-        "w_AptLightsSchedule_02": {
-            "monday_schedule_day_name": "d_AptLightsSchedule_00",
-            "tuesday_schedule_day_name": "d_AptLightsSchedule_01",
-            "wednesday_schedule_day_name": "d_AptLightsSchedule_01",
-            "thursday_schedule_day_name": "d_AptLightsSchedule_01",
-            "friday_schedule_day_name": "d_AptLightsSchedule_00",
-            "saturday_schedule_day_name": "d_AptLightsSchedule_01",
-            "sunday_schedule_day_name": "d_AptLightsSchedule_00",
-            "holiday_schedule_day_name": "d_AptLightsSchedule_00",
-            "summerdesignday_schedule_day_name": "d_AptLightsSchedule_00",
-            "winterdesignday_schedule_day_name": "d_AptLightsSchedule_00",
-            "customday1_schedule_day_name": "d_AptLightsSchedule_01",
-            "customday2_schedule_day_name": "d_AptLightsSchedule_00"
-        },
-        "w_AptLightsSchedule_03": {
-            "monday_schedule_day_name": "d_AptLightsSchedule_00",
-            "tuesday_schedule_day_name": "d_AptLightsSchedule_01",
-            "wednesday_schedule_day_name": "d_AptLightsSchedule_01",
-            "thursday_schedule_day_name": "d_AptLightsSchedule_01",
-            "friday_schedule_day_name": "d_AptLightsSchedule_01",
-            "saturday_schedule_day_name": "d_AptLightsSchedule_01",
-            "sunday_schedule_day_name": "d_AptLightsSchedule_00",
-            "holiday_schedule_day_name": "d_AptLightsSchedule_00",
-            "summerdesignday_schedule_day_name": "d_AptLightsSchedule_00",
-            "winterdesignday_schedule_day_name": "d_AptLightsSchedule_00",
-            "customday1_schedule_day_name": "d_AptLightsSchedule_01",
-            "customday2_schedule_day_name": "d_AptLightsSchedule_00"
-        },
-        "w_AptOccupancySchedule_00": {
-            "monday_schedule_day_name": "d_AptOccupancySchedule_00",
-            "tuesday_schedule_day_name": "d_AptOccupancySchedule_00",
-            "wednesday_schedule_day_name": "d_AptOccupancySchedule_01",
-            "thursday_schedule_day_name": "d_AptOccupancySchedule_01",
-            "friday_schedule_day_name": "d_AptOccupancySchedule_01",
-            "saturday_schedule_day_name": "d_AptOccupancySchedule_01",
-            "sunday_schedule_day_name": "d_AptOccupancySchedule_00",
-            "holiday_schedule_day_name": "d_AptOccupancySchedule_00",
-            "summerdesignday_schedule_day_name": "d_AptOccupancySchedule_00",
-            "winterdesignday_schedule_day_name": "d_AptOccupancySchedule_00",
-            "customday1_schedule_day_name": "d_AptOccupancySchedule_00",
-            "customday2_schedule_day_name": "d_AptOccupancySchedule_00"
-        },
-        "w_AptOccupancySchedule_01": {
-            "monday_schedule_day_name": "d_AptOccupancySchedule_00",
-            "tuesday_schedule_day_name": "d_AptOccupancySchedule_01",
-            "wednesday_schedule_day_name": "d_AptOccupancySchedule_00",
-            "thursday_schedule_day_name": "d_AptOccupancySchedule_01",
-            "friday_schedule_day_name": "d_AptOccupancySchedule_01",
-            "saturday_schedule_day_name": "d_AptOccupancySchedule_01",
-            "sunday_schedule_day_name": "d_AptOccupancySchedule_00",
-            "holiday_schedule_day_name": "d_AptOccupancySchedule_00",
-            "summerdesignday_schedule_day_name": "d_AptOccupancySchedule_00",
-            "winterdesignday_schedule_day_name": "d_AptOccupancySchedule_00",
-            "customday1_schedule_day_name": "d_AptOccupancySchedule_01",
-            "customday2_schedule_day_name": "d_AptOccupancySchedule_00"
-        },
-        "w_AptOccupancySchedule_02": {
-            "monday_schedule_day_name": "d_AptOccupancySchedule_00",
-            "tuesday_schedule_day_name": "d_AptOccupancySchedule_01",
-            "wednesday_schedule_day_name": "d_AptOccupancySchedule_01",
-            "thursday_schedule_day_name": "d_AptOccupancySchedule_01",
-            "friday_schedule_day_name": "d_AptOccupancySchedule_00",
-            "saturday_schedule_day_name": "d_AptOccupancySchedule_01",
-            "sunday_schedule_day_name": "d_AptOccupancySchedule_00",
-            "holiday_schedule_day_name": "d_AptOccupancySchedule_00",
-            "summerdesignday_schedule_day_name": "d_AptOccupancySchedule_00",
-            "winterdesignday_schedule_day_name": "d_AptOccupancySchedule_00",
-            "customday1_schedule_day_name": "d_AptOccupancySchedule_01",
-            "customday2_schedule_day_name": "d_AptOccupancySchedule_00"
-        },
-        "w_AptOccupancySchedule_03": {
-            "monday_schedule_day_name": "d_AptOccupancySchedule_00",
-            "tuesday_schedule_day_name": "d_AptOccupancySchedule_01",
-            "wednesday_schedule_day_name": "d_AptOccupancySchedule_01",
-            "thursday_schedule_day_name": "d_AptOccupancySchedule_01",
-            "friday_schedule_day_name": "d_AptOccupancySchedule_01",
-            "saturday_schedule_day_name": "d_AptOccupancySchedule_01",
-            "sunday_schedule_day_name": "d_AptOccupancySchedule_00",
-            "holiday_schedule_day_name": "d_AptOccupancySchedule_00",
-            "summerdesignday_schedule_day_name": "d_AptOccupancySchedule_00",
-            "winterdesignday_schedule_day_name": "d_AptOccupancySchedule_00",
-            "customday1_schedule_day_name": "d_AptOccupancySchedule_01",
-            "customday2_schedule_day_name": "d_AptOccupancySchedule_00"
-        },
         "w_SchoolEquipmentSchedule_00": {
             "monday_schedule_day_name": "d_SchoolEquipmentSchedule_00",
             "tuesday_schedule_day_name": "d_SchoolEquipmentSchedule_01",
@@ -1396,62 +1228,6 @@
             "customday1_schedule_day_name": "d_SchoolOccupancySchedule_02",
             "customday2_schedule_day_name": "d_SchoolOccupancySchedule_00"
         },
-        "w_AptDHW_00": {
-            "monday_schedule_day_name": "d_AptDHW_00",
-            "tuesday_schedule_day_name": "d_AptDHW_00",
-            "wednesday_schedule_day_name": "d_AptDHW_01",
-            "thursday_schedule_day_name": "d_AptDHW_01",
-            "friday_schedule_day_name": "d_AptDHW_01",
-            "saturday_schedule_day_name": "d_AptDHW_01",
-            "sunday_schedule_day_name": "d_AptDHW_00",
-            "holiday_schedule_day_name": "d_AptDHW_00",
-            "summerdesignday_schedule_day_name": "d_AptDHW_00",
-            "winterdesignday_schedule_day_name": "d_AptDHW_00",
-            "customday1_schedule_day_name": "d_AptDHW_00",
-            "customday2_schedule_day_name": "d_AptDHW_00"
-        },
-        "w_AptDHW_01": {
-            "monday_schedule_day_name": "d_AptDHW_00",
-            "tuesday_schedule_day_name": "d_AptDHW_01",
-            "wednesday_schedule_day_name": "d_AptDHW_00",
-            "thursday_schedule_day_name": "d_AptDHW_01",
-            "friday_schedule_day_name": "d_AptDHW_01",
-            "saturday_schedule_day_name": "d_AptDHW_01",
-            "sunday_schedule_day_name": "d_AptDHW_00",
-            "holiday_schedule_day_name": "d_AptDHW_00",
-            "summerdesignday_schedule_day_name": "d_AptDHW_00",
-            "winterdesignday_schedule_day_name": "d_AptDHW_00",
-            "customday1_schedule_day_name": "d_AptDHW_01",
-            "customday2_schedule_day_name": "d_AptDHW_00"
-        },
-        "w_AptDHW_02": {
-            "monday_schedule_day_name": "d_AptDHW_00",
-            "tuesday_schedule_day_name": "d_AptDHW_01",
-            "wednesday_schedule_day_name": "d_AptDHW_01",
-            "thursday_schedule_day_name": "d_AptDHW_01",
-            "friday_schedule_day_name": "d_AptDHW_00",
-            "saturday_schedule_day_name": "d_AptDHW_01",
-            "sunday_schedule_day_name": "d_AptDHW_00",
-            "holiday_schedule_day_name": "d_AptDHW_00",
-            "summerdesignday_schedule_day_name": "d_AptDHW_00",
-            "winterdesignday_schedule_day_name": "d_AptDHW_00",
-            "customday1_schedule_day_name": "d_AptDHW_01",
-            "customday2_schedule_day_name": "d_AptDHW_00"
-        },
-        "w_AptDHW_03": {
-            "monday_schedule_day_name": "d_AptDHW_00",
-            "tuesday_schedule_day_name": "d_AptDHW_01",
-            "wednesday_schedule_day_name": "d_AptDHW_01",
-            "thursday_schedule_day_name": "d_AptDHW_01",
-            "friday_schedule_day_name": "d_AptDHW_01",
-            "saturday_schedule_day_name": "d_AptDHW_01",
-            "sunday_schedule_day_name": "d_AptDHW_00",
-            "holiday_schedule_day_name": "d_AptDHW_00",
-            "summerdesignday_schedule_day_name": "d_AptDHW_00",
-            "winterdesignday_schedule_day_name": "d_AptDHW_00",
-            "customday1_schedule_day_name": "d_AptDHW_01",
-            "customday2_schedule_day_name": "d_AptDHW_00"
-        },
         "RESWk_clg": {
             "customday1_schedule_day_name": "RESWkDay_clg",
             "customday2_schedule_day_name": "RESWkDay_clg",
@@ -1595,357 +1371,6 @@
                     "schedule_week_name": "Dhw0",
                     "start_day": 1,
                     "start_month": 1
-                }
-            ]
-        },
-        "AptEquipmentSchedule": {
-            "schedule_type_limits_name": "Fraction",
-            "schedule_weeks": [
-                {
-                    "schedule_week_name": "w_AptEquipmentSchedule_03",
-                    "start_month": 1,
-                    "start_day": 1,
-                    "end_month": 1,
-                    "end_day": 14
-                },
-                {
-                    "schedule_week_name": "w_AptEquipmentSchedule_00",
-                    "start_month": 1,
-                    "start_day": 15,
-                    "end_month": 1,
-                    "end_day": 21
-                },
-                {
-                    "schedule_week_name": "w_AptEquipmentSchedule_03",
-                    "start_month": 1,
-                    "start_day": 22,
-                    "end_month": 2,
-                    "end_day": 18
-                },
-                {
-                    "schedule_week_name": "w_AptEquipmentSchedule_00",
-                    "start_month": 2,
-                    "start_day": 19,
-                    "end_month": 2,
-                    "end_day": 25
-                },
-                {
-                    "schedule_week_name": "w_AptEquipmentSchedule_03",
-                    "start_month": 2,
-                    "start_day": 26,
-                    "end_month": 5,
-                    "end_day": 27
-                },
-                {
-                    "schedule_week_name": "w_AptEquipmentSchedule_00",
-                    "start_month": 5,
-                    "start_day": 28,
-                    "end_month": 6,
-                    "end_day": 3
-                },
-                {
-                    "schedule_week_name": "w_AptEquipmentSchedule_03",
-                    "start_month": 6,
-                    "start_day": 4,
-                    "end_month": 7,
-                    "end_day": 1
-                },
-                {
-                    "schedule_week_name": "w_AptEquipmentSchedule_01",
-                    "start_month": 7,
-                    "start_day": 2,
-                    "end_month": 7,
-                    "end_day": 8
-                },
-                {
-                    "schedule_week_name": "w_AptEquipmentSchedule_03",
-                    "start_month": 7,
-                    "start_day": 9,
-                    "end_month": 9,
-                    "end_day": 2
-                },
-                {
-                    "schedule_week_name": "w_AptEquipmentSchedule_00",
-                    "start_month": 9,
-                    "start_day": 3,
-                    "end_month": 9,
-                    "end_day": 9
-                },
-                {
-                    "schedule_week_name": "w_AptEquipmentSchedule_03",
-                    "start_month": 9,
-                    "start_day": 10,
-                    "end_month": 10,
-                    "end_day": 7
-                },
-                {
-                    "schedule_week_name": "w_AptEquipmentSchedule_00",
-                    "start_month": 10,
-                    "start_day": 8,
-                    "end_month": 10,
-                    "end_day": 14
-                },
-                {
-                    "schedule_week_name": "w_AptEquipmentSchedule_03",
-                    "start_month": 10,
-                    "start_day": 15,
-                    "end_month": 11,
-                    "end_day": 18
-                },
-                {
-                    "schedule_week_name": "w_AptEquipmentSchedule_02",
-                    "start_month": 11,
-                    "start_day": 19,
-                    "end_month": 11,
-                    "end_day": 25
-                },
-                {
-                    "schedule_week_name": "w_AptEquipmentSchedule_03",
-                    "start_month": 11,
-                    "start_day": 26,
-                    "end_month": 12,
-                    "end_day": 23
-                },
-                {
-                    "schedule_week_name": "w_AptEquipmentSchedule_00",
-                    "start_month": 12,
-                    "start_day": 24,
-                    "end_month": 12,
-                    "end_day": 31
-                }
-            ]
-        },
-        "AptLightsSchedule": {
-            "schedule_type_limits_name": "Fraction",
-            "schedule_weeks": [
-                {
-                    "schedule_week_name": "w_AptLightsSchedule_03",
-                    "start_month": 1,
-                    "start_day": 1,
-                    "end_month": 1,
-                    "end_day": 14
-                },
-                {
-                    "schedule_week_name": "w_AptLightsSchedule_00",
-                    "start_month": 1,
-                    "start_day": 15,
-                    "end_month": 1,
-                    "end_day": 21
-                },
-                {
-                    "schedule_week_name": "w_AptLightsSchedule_03",
-                    "start_month": 1,
-                    "start_day": 22,
-                    "end_month": 2,
-                    "end_day": 18
-                },
-                {
-                    "schedule_week_name": "w_AptLightsSchedule_00",
-                    "start_month": 2,
-                    "start_day": 19,
-                    "end_month": 2,
-                    "end_day": 25
-                },
-                {
-                    "schedule_week_name": "w_AptLightsSchedule_03",
-                    "start_month": 2,
-                    "start_day": 26,
-                    "end_month": 5,
-                    "end_day": 27
-                },
-                {
-                    "schedule_week_name": "w_AptLightsSchedule_00",
-                    "start_month": 5,
-                    "start_day": 28,
-                    "end_month": 6,
-                    "end_day": 3
-                },
-                {
-                    "schedule_week_name": "w_AptLightsSchedule_03",
-                    "start_month": 6,
-                    "start_day": 4,
-                    "end_month": 7,
-                    "end_day": 1
-                },
-                {
-                    "schedule_week_name": "w_AptLightsSchedule_01",
-                    "start_month": 7,
-                    "start_day": 2,
-                    "end_month": 7,
-                    "end_day": 8
-                },
-                {
-                    "schedule_week_name": "w_AptLightsSchedule_03",
-                    "start_month": 7,
-                    "start_day": 9,
-                    "end_month": 9,
-                    "end_day": 2
-                },
-                {
-                    "schedule_week_name": "w_AptLightsSchedule_00",
-                    "start_month": 9,
-                    "start_day": 3,
-                    "end_month": 9,
-                    "end_day": 9
-                },
-                {
-                    "schedule_week_name": "w_AptLightsSchedule_03",
-                    "start_month": 9,
-                    "start_day": 10,
-                    "end_month": 10,
-                    "end_day": 7
-                },
-                {
-                    "schedule_week_name": "w_AptLightsSchedule_00",
-                    "start_month": 10,
-                    "start_day": 8,
-                    "end_month": 10,
-                    "end_day": 14
-                },
-                {
-                    "schedule_week_name": "w_AptLightsSchedule_03",
-                    "start_month": 10,
-                    "start_day": 15,
-                    "end_month": 11,
-                    "end_day": 18
-                },
-                {
-                    "schedule_week_name": "w_AptLightsSchedule_02",
-                    "start_month": 11,
-                    "start_day": 19,
-                    "end_month": 11,
-                    "end_day": 25
-                },
-                {
-                    "schedule_week_name": "w_AptLightsSchedule_03",
-                    "start_month": 11,
-                    "start_day": 26,
-                    "end_month": 12,
-                    "end_day": 23
-                },
-                {
-                    "schedule_week_name": "w_AptLightsSchedule_00",
-                    "start_month": 12,
-                    "start_day": 24,
-                    "end_month": 12,
-                    "end_day": 31
-                }
-            ]
-        },
-        "AptOccupancySchedule": {
-            "schedule_type_limits_name": "Fraction",
-            "schedule_weeks": [
-                {
-                    "schedule_week_name": "w_AptOccupancySchedule_03",
-                    "start_month": 1,
-                    "start_day": 1,
-                    "end_month": 1,
-                    "end_day": 14
-                },
-                {
-                    "schedule_week_name": "w_AptOccupancySchedule_00",
-                    "start_month": 1,
-                    "start_day": 15,
-                    "end_month": 1,
-                    "end_day": 21
-                },
-                {
-                    "schedule_week_name": "w_AptOccupancySchedule_03",
-                    "start_month": 1,
-                    "start_day": 22,
-                    "end_month": 2,
-                    "end_day": 18
-                },
-                {
-                    "schedule_week_name": "w_AptOccupancySchedule_00",
-                    "start_month": 2,
-                    "start_day": 19,
-                    "end_month": 2,
-                    "end_day": 25
-                },
-                {
-                    "schedule_week_name": "w_AptOccupancySchedule_03",
-                    "start_month": 2,
-                    "start_day": 26,
-                    "end_month": 5,
-                    "end_day": 27
-                },
-                {
-                    "schedule_week_name": "w_AptOccupancySchedule_00",
-                    "start_month": 5,
-                    "start_day": 28,
-                    "end_month": 6,
-                    "end_day": 3
-                },
-                {
-                    "schedule_week_name": "w_AptOccupancySchedule_03",
-                    "start_month": 6,
-                    "start_day": 4,
-                    "end_month": 7,
-                    "end_day": 1
-                },
-                {
-                    "schedule_week_name": "w_AptOccupancySchedule_01",
-                    "start_month": 7,
-                    "start_day": 2,
-                    "end_month": 7,
-                    "end_day": 8
-                },
-                {
-                    "schedule_week_name": "w_AptOccupancySchedule_03",
-                    "start_month": 7,
-                    "start_day": 9,
-                    "end_month": 9,
-                    "end_day": 2
-                },
-                {
-                    "schedule_week_name": "w_AptOccupancySchedule_00",
-                    "start_month": 9,
-                    "start_day": 3,
-                    "end_month": 9,
-                    "end_day": 9
-                },
-                {
-                    "schedule_week_name": "w_AptOccupancySchedule_03",
-                    "start_month": 9,
-                    "start_day": 10,
-                    "end_month": 10,
-                    "end_day": 7
-                },
-                {
-                    "schedule_week_name": "w_AptOccupancySchedule_00",
-                    "start_month": 10,
-                    "start_day": 8,
-                    "end_month": 10,
-                    "end_day": 14
-                },
-                {
-                    "schedule_week_name": "w_AptOccupancySchedule_03",
-                    "start_month": 10,
-                    "start_day": 15,
-                    "end_month": 11,
-                    "end_day": 18
-                },
-                {
-                    "schedule_week_name": "w_AptOccupancySchedule_02",
-                    "start_month": 11,
-                    "start_day": 19,
-                    "end_month": 11,
-                    "end_day": 25
-                },
-                {
-                    "schedule_week_name": "w_AptOccupancySchedule_03",
-                    "start_month": 11,
-                    "start_day": 26,
-                    "end_month": 12,
-                    "end_day": 23
-                },
-                {
-                    "schedule_week_name": "w_AptOccupancySchedule_00",
-                    "start_month": 12,
-                    "start_day": 24,
-                    "end_month": 12,
-                    "end_day": 31
                 }
             ]
         },
@@ -2314,123 +1739,6 @@
                 }
             ]
         },
-        "AptDHW": {
-            "schedule_type_limits_name": "Fraction",
-            "schedule_weeks": [
-                {
-                    "schedule_week_name": "w_AptDHW_03",
-                    "start_month": 1,
-                    "start_day": 1,
-                    "end_month": 1,
-                    "end_day": 14
-                },
-                {
-                    "schedule_week_name": "w_AptDHW_00",
-                    "start_month": 1,
-                    "start_day": 15,
-                    "end_month": 1,
-                    "end_day": 21
-                },
-                {
-                    "schedule_week_name": "w_AptDHW_03",
-                    "start_month": 1,
-                    "start_day": 22,
-                    "end_month": 2,
-                    "end_day": 18
-                },
-                {
-                    "schedule_week_name": "w_AptDHW_00",
-                    "start_month": 2,
-                    "start_day": 19,
-                    "end_month": 2,
-                    "end_day": 25
-                },
-                {
-                    "schedule_week_name": "w_AptDHW_03",
-                    "start_month": 2,
-                    "start_day": 26,
-                    "end_month": 5,
-                    "end_day": 27
-                },
-                {
-                    "schedule_week_name": "w_AptDHW_00",
-                    "start_month": 5,
-                    "start_day": 28,
-                    "end_month": 6,
-                    "end_day": 3
-                },
-                {
-                    "schedule_week_name": "w_AptDHW_03",
-                    "start_month": 6,
-                    "start_day": 4,
-                    "end_month": 7,
-                    "end_day": 1
-                },
-                {
-                    "schedule_week_name": "w_AptDHW_01",
-                    "start_month": 7,
-                    "start_day": 2,
-                    "end_month": 7,
-                    "end_day": 8
-                },
-                {
-                    "schedule_week_name": "w_AptDHW_03",
-                    "start_month": 7,
-                    "start_day": 9,
-                    "end_month": 9,
-                    "end_day": 2
-                },
-                {
-                    "schedule_week_name": "w_AptDHW_00",
-                    "start_month": 9,
-                    "start_day": 3,
-                    "end_month": 9,
-                    "end_day": 9
-                },
-                {
-                    "schedule_week_name": "w_AptDHW_03",
-                    "start_month": 9,
-                    "start_day": 10,
-                    "end_month": 10,
-                    "end_day": 7
-                },
-                {
-                    "schedule_week_name": "w_AptDHW_00",
-                    "start_month": 10,
-                    "start_day": 8,
-                    "end_month": 10,
-                    "end_day": 14
-                },
-                {
-                    "schedule_week_name": "w_AptDHW_03",
-                    "start_month": 10,
-                    "start_day": 15,
-                    "end_month": 11,
-                    "end_day": 18
-                },
-                {
-                    "schedule_week_name": "w_AptDHW_02",
-                    "start_month": 11,
-                    "start_day": 19,
-                    "end_month": 11,
-                    "end_day": 25
-                },
-                {
-                    "schedule_week_name": "w_AptDHW_03",
-                    "start_month": 11,
-                    "start_day": 26,
-                    "end_month": 12,
-                    "end_day": 23
-                },
-                {
-                    "schedule_week_name": "w_AptDHW_00",
-                    "start_month": 12,
-                    "start_day": 24,
-                    "end_month": 12,
-                    "end_day": 31
-                }
-            ]
-        },
         "RESclg": {
             "schedule_type_limits_name": "Temperature",
             "schedule_weeks": [
@@ -2502,6 +1810,439 @@
                     "start_month": 1
                 }
             ]
+        }
+    },
+    "Schedule:Compact": {
+        "APT_DHW_SCH": {
+            "data": [
+                {
+                    "field": "THROUGH: 12/31"
+                },
+                {
+                    "field": "FOR: AllDays"
+                },
+                {
+                    "field": "UNTIL: 1:00"
+                },
+                {
+                    "field": 0.08
+                },
+                {
+                    "field": "UNTIL: 2:00"
+                },
+                {
+                    "field": 0.04
+                },
+                {
+                    "field": "UNTIL: 3:00"
+                },
+                {
+                    "field": 0.01
+                },
+                {
+                    "field": "UNTIL: 4:00"
+                },
+                {
+                    "field": 0.01
+                },
+                {
+                    "field": "UNTIL: 5:00"
+                },
+                {
+                    "field": 0.04
+                },
+                {
+                    "field": "UNTIL: 6:00"
+                },
+                {
+                    "field": 0.27
+                },
+                {
+                    "field": "UNTIL: 7:00"
+                },
+                {
+                    "field": 0.94
+                },
+                {
+                    "field": "UNTIL: 8:00"
+                },
+                {
+                    "field": 1.0
+                },
+                {
+                    "field": "UNTIL: 9:00"
+                },
+                {
+                    "field": 0.96
+                },
+                {
+                    "field": "UNTIL: 10:00"
+                },
+                {
+                    "field": 0.84
+                },
+                {
+                    "field": "UNTIL: 11:00"
+                },
+                {
+                    "field": 0.76
+                },
+                {
+                    "field": "UNTIL: 12:00"
+                },
+                {
+                    "field": 0.61
+                },
+                {
+                    "field": "UNTIL: 13:00"
+                },
+                {
+                    "field": 0.53
+                },
+                {
+                    "field": "UNTIL: 14:00"
+                },
+                {
+                    "field": 0.47
+                },
+                {
+                    "field": "UNTIL: 15:00"
+                },
+                {
+                    "field": 0.41
+                },
+                {
+                    "field": "UNTIL: 16:00"
+                },
+                {
+                    "field": 0.47
+                },
+                {
+                    "field": "UNTIL: 17:00"
+                },
+                {
+                    "field": 0.55
+                },
+                {
+                    "field": "UNTIL: 18:00"
+                },
+                {
+                    "field": 0.73
+                },
+                {
+                    "field": "UNTIL: 19:00"
+                },
+                {
+                    "field": 0.86
+                },
+                {
+                    "field": "UNTIL: 20:00"
+                },
+                {
+                    "field": 0.82
+                },
+                {
+                    "field": "UNTIL: 21:00"
+                },
+                {
+                    "field": 0.75
+                },
+                {
+                    "field": "UNTIL: 22:00"
+                },
+                {
+                    "field": 0.61
+                },
+                {
+                    "field": "UNTIL: 23:00"
+                },
+                {
+                    "field": 0.53
+                },
+                {
+                    "field": "UNTIL: 24:00"
+                },
+                {
+                    "field": 0.29
+                }
+            ],
+            "schedule_type_limits_name": "Fraction"
+        },
+        "EQP_APT_SCH": {
+            "data": [
+                {
+                    "field": "Through: 12/31"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 1:00"
+                },
+                {
+                    "field": 0.45
+                },
+                {
+                    "field": "Until: 2:00"
+                },
+                {
+                    "field": 0.41
+                },
+                {
+                    "field": "Until: 3:00"
+                },
+                {
+                    "field": 0.39
+                },
+                {
+                    "field": "Until: 5:00"
+                },
+                {
+                    "field": 0.38
+                },
+                {
+                    "field": "Until: 6:00"
+                },
+                {
+                    "field": 0.43
+                },
+                {
+                    "field": "Until: 7:00"
+                },
+                {
+                    "field": 0.54
+                },
+                {
+                    "field": "Until: 8:00"
+                },
+                {
+                    "field": 0.65
+                },
+                {
+                    "field": "Until: 9:00"
+                },
+                {
+                    "field": 0.66
+                },
+                {
+                    "field": "Until: 10:00"
+                },
+                {
+                    "field": 0.67
+                },
+                {
+                    "field": "Until: 11:00"
+                },
+                {
+                    "field": 0.69
+                },
+                {
+                    "field": "Until: 12:00"
+                },
+                {
+                    "field": 0.7
+                },
+                {
+                    "field": "Until: 13:00"
+                },
+                {
+                    "field": 0.69
+                },
+                {
+                    "field": "Until: 14:00"
+                },
+                {
+                    "field": 0.66
+                },
+                {
+                    "field": "Until: 15:00"
+                },
+                {
+                    "field": 0.65
+                },
+                {
+                    "field": "Until: 16:00"
+                },
+                {
+                    "field": 0.68
+                },
+                {
+                    "field": "Until: 17:00"
+                },
+                {
+                    "field": 0.8
+                },
+                {
+                    "field": "Until: 19:00"
+                },
+                {
+                    "field": 1.0
+                },
+                {
+                    "field": "Until: 20:00"
+                },
+                {
+                    "field": 0.93
+                },
+                {
+                    "field": "Until: 21:00"
+                },
+                {
+                    "field": 0.89
+                },
+                {
+                    "field": "Until: 22:00"
+                },
+                {
+                    "field": 0.85
+                },
+                {
+                    "field": "Until: 23:00"
+                },
+                {
+                    "field": 0.71
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0.58
+                }
+            ],
+            "schedule_type_limits_name": "Fraction"
+        },
+        "OCC_APT_SCH_STAY_HOME_FAMILY": {
+            "data": [
+                {
+                    "field": "Through: 12/31"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 7:00"
+                },
+                {
+                    "field": 1.0
+                },
+                {
+                    "field": "Until: 8:00"
+                },
+                {
+                    "field": 0.85
+                },
+                {
+                    "field": "Until: 9:00"
+                },
+                {
+                    "field": 0.39
+                },
+                {
+                    "field": "Until: 16:00"
+                },
+                {
+                    "field": 0.25
+                },
+                {
+                    "field": "Until: 17:00"
+                },
+                {
+                    "field": 0.3
+                },
+                {
+                    "field": "Until: 18:00"
+                },
+                {
+                    "field": 0.52
+                },
+                {
+                    "field": "Until: 21:00"
+                },
+                {
+                    "field": 0.87
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 1.0
+                }
+            ],
+            "schedule_type_limits_name": "Fraction"
+        },
+        "OCC_APT_SCH_WORKING_FAMILY": {
+            "data": [
+                {
+                    "field": "Through: 12/31"
+                },
+                {
+                    "field": "For: SummerDesignDay"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 1.0
+                },
+                {
+                    "field": "For: WinterDesignDay"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0.0
+                },
+                {
+                    "field": "For: Weekday"
+                },
+                {
+                    "field": "Until: 8:00"
+                },
+                {
+                    "field": 1.0
+                },
+                {
+                    "field": "Until: 18:00"
+                },
+                {
+                    "field": 0.0
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 1.0
+                },
+                {
+                    "field": "For: Weekend AllOtherDays"
+                },
+                {
+                    "field": "Until: 11:00"
+                },
+                {
+                    "field": 1.0
+                },
+                {
+                    "field": "Until: 15:00"
+                },
+                {
+                    "field": 0.5
+                },
+                {
+                    "field": "Until: 16:00"
+                },
+                {
+                    "field": 0.0
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 1.0
+                }
+            ],
+            "schedule_type_limits_name": "Fraction"
         }
     }
 }
