@@ -2,57 +2,57 @@ building_id,TYPOLOGY,AGE_ERA,LabsAreaWeight
 1,Lab and Mixed Use,1945,0.268159426
 10,Office and Mixed Use,1945,0.071947961
 11,Office and Mixed Use,1945,0
-12,Lab Dominant,2015,0.390881366
-13,Lab Dominant,1980,0.360038004
+12,Lab and Mixed Use,2015,0.390881366
+13,Lab and Mixed Use,1980,0.360038004
 14,Office and Mixed Use,1980,0.042508233
-16,Lab Dominant,1980,0.254252044
-17,Lab Dominant,1945,0.532315151
-18,Lab Dominant,1980,0.550492118
+16,Lab and Mixed Use,1980,0.254252044
+17,Lab and Mixed Use,1945,0.532315151
+18,Lab and Mixed Use,1980,0.550492118
 2,Lab and Mixed Use,1945,0.192297309
 24,Office and Mixed Use,1945,0.125764986
 26,Lab and Mixed Use,1980,0.221078476
 3,Lab and Mixed Use,1945,0.324671905
-31,Lab Dominant,1945,0.505036059
+31,Lab and Mixed Use,1945,0.505036059
 32,Office and Mixed Use,2015,0.085218353
 33,Lab and Mixed Use,1945,0.211331812
 34,Lab and Mixed Use,2015,0.16101023
 35,Lab and Mixed Use,1980,0.292267286
 36,Lab and Mixed Use,1980,0.241106939
 37,Lab and Mixed Use,1980,0.24820622
-38,Lab Dominant,1980,0.504968584
-39,Lab Dominant,1980,0.437322395
+38,Lab and Mixed Use,1980,0.504968584
+39,Lab and Mixed Use,1980,0.437322395
 4,Lab and Mixed Use,1945,0.252956439
-41,Lab Dominant,1945,0.535665394
-42C,Mechanical,2015,0
+41,Lab and Mixed Use,1945,0.535665394
+42C,Support Dominant,2015,0
 45,Office and Mixed Use,2015,0.054902841
-46,Lab Dominant,2015,0.336833277
-48,Lab Dominant,1980,0.454270543
+46,Lab and Mixed Use,2015,0.336833277
+48,Lab and Mixed Use,1980,0.454270543
 5,Lab and Mixed Use,1945,0.207240769
 50,Office and Mixed Use,1945,0
 51,Athletic,1945,0
 54,Lab and Mixed Use,1980,0.157418881
-56,Lab Dominant,1980,0.355473646
+56,Lab and Mixed Use,1980,0.355473646
 57,Athletic,1945,0
 6,Lab and Mixed Use,1945,0.274886722
 62,Residential,1945,0
 64,Residential,1945,0
-66,Lab Dominant,1980,0.33474078
-68,Lab Dominant,2015,0.503325264
+66,Lab and Mixed Use,1980,0.33474078
+68,Lab and Mixed Use,2015,0.503325264
 6C,Lab and Mixed Use,2015,0.203130828
 7,Lab and Mixed Use,1945,0.159124694
-76,Lab Dominant,2015,0.433539584
+76,Lab and Mixed Use,2015,0.433539584
 7A,Lab and Mixed Use,2015,0.164541698
 8,Lab and Mixed Use,1945,0.253685803
 9,Office and Mixed Use,1980,0.041333458
 E1,Residential,1945,0
-E14,Lab Dominant,2015,0.318347184
+E14,Lab and Mixed Use,2015,0.318347184
 E15,Lab and Mixed Use,2015,0.30951021
 E17,Office and Mixed Use,1980,0.117331626
 E18,Lab and Mixed Use,1980,0.161354407
 E19,Office and Mixed Use,1980,0.082903456
 E2,Residential,1980,0.005314304
 E23,Office and Mixed Use,2015,0
-E25,Lab Dominant,2015,0.351056526
+E25,Lab and Mixed Use,2015,0.351056526
 E37,Residential,2015,0.000361084
 E38,Office and Mixed Use,2015,0.013081484
 E40,Office and Mixed Use,1980,0.018455928
@@ -61,24 +61,24 @@ E52,Office and Mixed Use,1980,0
 E53,Office and Mixed Use,1980,0
 E60,Office and Mixed Use,2015,0
 E62,Office and Mixed Use,2015,0
-N10,Lab Dominant,2015,0.796657509
-N16A,Mechanical,2015,0
-N16B,Mechanical,2015,0
-N16C,Mechanical,2015,0
+N10,Lab and Mixed Use,2015,0.796657509
+N16A,Support Dominant,2015,0
+N16B,Support Dominant,2015,0
+N16C,Support Dominant,2015,0
 N51,Office and Mixed Use,1980,0.114478086
 N52,Lab and Mixed Use,1980,0.154833492
 N57,Support Dominant,2015,0
-N9,Lab Dominant,2015,0.95906488
+N9,Lab and Mixed Use,2015,0.95906488
 NW10,Residential,1945,0
-NW12,Lab Dominant,1980,0.478190026
-NW12A,Lab Dominant,2015,1
-NW13,Lab Dominant,1980,0.716538357
-NW14,Lab Dominant,1980,0.571937206
-NW15,Lab Dominant,1980,0.948196318
+NW12,Lab and Mixed Use,1980,0.478190026
+NW12A,Lab and Mixed Use,2015,1
+NW13,Lab and Mixed Use,1980,0.716538357
+NW14,Lab and Mixed Use,1980,0.571937206
+NW15,Lab and Mixed Use,1980,0.948196318
 NW16,Lab and Mixed Use,2015,0.270734608
 NW17,Lab and Mixed Use,1945,0.326440117
-NW20,Lab Dominant,2015,0.995606559
-NW21,Lab Dominant,2015,0.520812419
+NW20,Lab and Mixed Use,2015,0.995606559
+NW21,Lab and Mixed Use,2015,0.520812419
 NW22,Lab and Mixed Use,2015,0.45520942
 NW23,Office and Mixed Use,2015,0
 NW30,Residential,1980,0
@@ -86,7 +86,7 @@ NW32,Office and Mixed Use,2015,0
 NW35,Residential,2015,0
 NW36,Support Dominant,2015,0
 NW38,Office and Mixed Use,2015,0
-NW38A,Office,2015,0
+NW38A,Office and Mixed Use,2015,0
 NW61,Residential,1980,0
 NW86,Residential,2015,0
 W1,Residential,1945,0
@@ -115,7 +115,7 @@ W70,Residential,1980,0
 W71,Residential,2015,0
 W79,Residential,2015,0
 W8,Athletic,2015,0
-W83,Mechanical,2015,0
+W83,Support Dominant,2015,0
 W84,Residential,1980,0.000950611
 W85,Residential,1980,0
 W85ABC,Residential,1980,0
