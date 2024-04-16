@@ -55,7 +55,7 @@ class SimulateCluster:
         self.weight_map = weight_map
 
         self.make_epjsons()
-        self.get_areas()
+        # self.get_areas()
 
     def make_epjsons(self):
         epjsons = {}
@@ -80,9 +80,8 @@ class SimulateCluster:
             for zone in self.weight_map.keys():
                 self.weights.loc[self.weights.ShoeboxPath == row.ShoeboxPath, f"{zone}_Area"] = areas[zone]
         # Get total gross building area from umi
-        #TODO
-        # self.weights["TotalFloorArea"] = self.weights["PerimeterArea"] + self.weights["CoreArea"] 
-        self.weights["TotalFloorArea"] = self.weights["bldg_perim_area"] + self.weights["bldg_core_area"] 
+        # self.weights["footprint_area"] = self.weights["PerimeterArea"] + self.weights["CoreArea"] 
+        self.weights["footprint_area"] = self.weights["bldg_perim_area"] + self.weights["bldg_core_area"] 
 
     def fetch_building_results_parallel(self, buildings, max_workers=6):
         with ThreadPoolExecutor(max_workers=max_workers) as executor:
@@ -106,7 +105,7 @@ class SimulateCluster:
                 
                 for zone in zones:
                     cols = [x for x in sb_results.columns if zone.upper() in x[0]]
-                    area = row[f"{zone}_Area"]
+                    # area = row[f"{zone}_Area"]
                     norm_results = sb_results.loc[:, cols]
                     # norm_results = sb_results.loc[:, cols].div(area) # TODO
                     sb_results.loc[:, cols] = norm_results.mul(row[self.weight_map[zone]]).values
@@ -118,11 +117,24 @@ class SimulateCluster:
                 # logger.error(e)
                 # raise e
                 # results_df.loc[:, :] += new
-        norm_cols = [x+"_norm" for x in results_df.columns]
-        building_area = list(df.TotalFloorArea)[0] * list(df.floor_count)[0] #TODO
-        results_df.loc[:, norm_cols] = results_df.div(building_area).values
+        # Convert to kwh
         results_df = results_df.mul(2.77e-7)
-        results_df["ModelArea"] = building_area
+        # Calculate building area that is modeled (floor extrusion) for EUI calculation
+        modeled_building_area = list(df.gis_total_area)[0]
+        gross_building_area = list(df.Gross)[0]
+        # modeled_building_area = list(df.bldg_footprint_area)[0] * list(df.floor_count)[0]
+        # Whole-building EUI calculation
+        
+        norm_cols = [x+"_norm" for x in results_df.columns]
+        # gross_cols = [x+"_gross" for x in results_df.columns]
+        gross_cols = results_df.columns
+        results_df.loc[:, norm_cols] = results_df.div(modeled_building_area).values
+        
+        # Recalculate total building energy use with real building area
+        results_df.loc[:, gross_cols] = results_df[norm_cols].mul(gross_building_area).values
+
+        results_df["ModelArea"] = modeled_building_area
+        results_df["ActualArea"] = gross_building_area
         results_df["DateTime"] = pd.date_range(start=datetime.datetime(year=2018, day=1, month=1, hour=0), periods=8760, freq="H")
         results_df["BuildingId"] = building_id
         return (building_id, results_df)
