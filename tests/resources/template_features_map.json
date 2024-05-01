@@ -56,7 +56,7 @@
     "Infiltration": [
         "ZoneInfiltration:DesignFlowRate",
         "%ZONE%Infiltration",
-        "air_changes_per_hour"
+        "flow_rate_per_exterior_surface_area"
     ],
     "InfiltrationType": [
         "ZoneInfiltration:DesignFlowRate",
